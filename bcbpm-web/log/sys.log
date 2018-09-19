@@ -1530,3 +1530,157 @@ costTime  : 72565ms
 -------------------------------------------------------------------------------
 2018-09-19 19:32:44,779 [http-nio-8081-exec-1] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
 2018-09-19 19:32:44,784 [http-nio-8081-exec-1] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:42:29,116 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 14192 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:42:29,118 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:42:29,123 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:42:36,926 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 19:42:36,927 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 19:42:36,928 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 19:42:36,928 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 19:42:36,929 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 19:42:36,929 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 19:42:50,095 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 15416 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:42:50,098 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:42:50,104 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:43:02,917 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 19:43:02,936 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 19:43:02,936 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 19:43:02,937 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 19:43:02,938 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 19:43:02,939 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 19:43:19,517 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 31.286 seconds (JVM running for 32.844)
+2018-09-19 19:43:56,894 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:43:56,900 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:43:56-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 19:43:56,900 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:43:56,901 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:44:55,348 [http-nio-8081-exec-1] INFO (ActivitiController.java:61)- 当前流程里的任务节点名称：Expense Request
+2018-09-19 19:44:55,455 [http-nio-8081-exec-1] INFO (ActivitiController.java:70)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-19 19:44:55,562 [http-nio-8081-exec-1] INFO (ActivitiController.java:77)- 流程结束后，查找任务：null
+2018-09-19 19:44:55,593 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:44:55,715 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:44:55-------------------------------------
+costTime  : 58820ms
+-------------------------------------------------------------------------------
+2018-09-19 19:44:55,721 [http-nio-8081-exec-1] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:44:55,723 [http-nio-8081-exec-1] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:56:55,804 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 10088 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:56:55,806 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:56:55,815 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:57:20,529 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 19:57:20,530 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 19:57:20,538 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 19:57:20,539 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 19:57:20,539 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 19:57:20,544 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 19:57:35,819 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 42.035 seconds (JVM running for 43.843)
+2018-09-19 20:01:37,653 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 12872 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 20:01:37,658 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 20:01:37,666 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 20:01:49,067 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 20:01:49,075 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 20:01:49,076 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 20:01:49,076 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 20:01:49,078 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 20:01:49,078 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 20:02:04,776 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 30.242 seconds (JVM running for 31.898)
+2018-09-19 20:02:47,764 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 20:02:47,770 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 20:02:47-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 20:02:47,771 [http-nio-8081-exec-10] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 20:02:47,772 [http-nio-8081-exec-10] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 20:03:25,577 [http-nio-8081-exec-10] INFO (ActivitiController.java:65)- 当前流程里的任务节点名称：Expense Request
+2018-09-19 20:03:25,650 [http-nio-8081-exec-10] INFO (ActivitiController.java:74)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-19 20:03:25,749 [http-nio-8081-exec-10] INFO (ActivitiController.java:81)- 流程结束后，查找任务：null
+2018-09-19 20:03:25,768 [http-nio-8081-exec-10] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 20:03:25,868 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 20:03:25-------------------------------------
+costTime  : 38102ms
+-------------------------------------------------------------------------------
+2018-09-19 20:03:25,876 [http-nio-8081-exec-10] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 20:03:25,880 [http-nio-8081-exec-10] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 20:03:48,089 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 7108 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 20:03:48,091 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 20:03:48,096 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 20:03:59,864 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 20:03:59,865 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 20:03:59,866 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 20:03:59,866 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 20:03:59,867 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 20:03:59,867 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 20:04:15,951 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 29.849 seconds (JVM running for 31.981)
+2018-09-19 20:17:50,855 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 1600 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 20:17:50,857 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 20:17:50,864 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 20:18:02,982 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 20:18:02,983 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 20:18:02,983 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 20:18:02,984 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 20:18:02,984 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 20:18:02,985 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 20:18:18,609 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 30.435 seconds (JVM running for 32.121)
+2018-09-19 20:18:37,805 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 20:18:37,812 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 20:18:37-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 20:18:37,813 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 20:18:37,814 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 20:18:55,158 [http-nio-8081-exec-1] ERROR (GlobalControllerAccessHandler.java:68)- 系统未知异常：null
+2018-09-19 20:19:28,395 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 6884 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 20:19:28,398 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 20:19:28,403 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 20:19:44,665 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 12004 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 20:19:44,672 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 20:19:44,677 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 20:19:56,399 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 20:19:56,400 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 20:19:56,401 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 20:19:56,402 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 20:19:56,402 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 20:19:56,403 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 20:20:11,459 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 28.754 seconds (JVM running for 30.357)
+2018-09-19 20:20:26,011 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 20:20:26,015 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 20:20:26-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 20:20:26,016 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 20:20:26,016 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 20:20:32,397 [http-nio-8081-exec-1] INFO (ActivitiController.java:64)- 当前流程里的任务节点名称：Expense Request
+2018-09-19 20:20:32,478 [http-nio-8081-exec-1] INFO (ActivitiController.java:73)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-19 20:20:32,572 [http-nio-8081-exec-1] INFO (ActivitiController.java:80)- 流程结束后，查找任务：null
+2018-09-19 20:20:32,596 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 20:20:32,686 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 20:20:32-------------------------------------
+costTime  : 6674ms
+-------------------------------------------------------------------------------
+2018-09-19 20:20:32,693 [http-nio-8081-exec-1] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 20:20:32,696 [http-nio-8081-exec-1] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 20:20:41,582 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 20:20:41,583 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 20:20:41-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 20:20:41,583 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 20:20:41,584 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 20:20:42,042 [http-nio-8081-exec-3] INFO (ActivitiController.java:64)- 当前流程里的任务节点名称：Expense Request
+2018-09-19 20:20:42,097 [http-nio-8081-exec-3] INFO (ActivitiController.java:73)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-19 20:20:42,188 [http-nio-8081-exec-3] INFO (ActivitiController.java:80)- 流程结束后，查找任务：null
+2018-09-19 20:20:42,189 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 20:20:42,192 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 20:20:42-------------------------------------
+costTime  : 609ms
+-------------------------------------------------------------------------------
+2018-09-19 20:20:42,192 [http-nio-8081-exec-3] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 20:20:42,192 [http-nio-8081-exec-3] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983

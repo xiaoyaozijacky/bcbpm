@@ -37,9 +37,16 @@
 	          <scope>compile</scope>
 	      </dependency>
 	      
-	  	<dependency>
+	  	  <dependency>
 	          <groupId>com.bcbpm</groupId>
 	          <artifactId>bcbpm-model</artifactId>
+	          <version>1.0-SNAPSHOT</version>
+	          <scope>compile</scope>
+	      </dependency>
+	      
+	      <dependency>
+	          <groupId>com.bcbpm</groupId>
+	          <artifactId>bcbpm-activiti</artifactId>
 	          <version>1.0-SNAPSHOT</version>
 	          <scope>compile</scope>
 	      </dependency>

@@ -38,6 +38,7 @@ public class DynamicDataSourceAop{
         Method method = signature.getMethod();
         Object target = pjp.getTarget();
 
+        logger.info("target class: " + target.getClass() + "target package: " + target.getClass().getPackage().getName() + "，method.getName(): " + method.getName());
         if(method.getName().equals("addBatchLogStatistics")){
             DatabaseContextHolder.setDatabaseType(DatabaseType.main);//设置为日志库
         }else if(target.getClass().getPackage().getName().startsWith("com.bcbpm.activiti")){

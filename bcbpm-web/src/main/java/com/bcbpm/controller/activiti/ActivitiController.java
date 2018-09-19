@@ -1,6 +1,5 @@
 package com.bcbpm.controller.activiti;
 
-import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
@@ -34,23 +33,27 @@ public class ActivitiController{
     Logger logger = LoggerFactory.getLogger(getClass());
 
     // 流程引擎
-    @Autowired
-    private ProcessEngine engine;
-
-    //    // 注入Service  流程存储服务组件
     //    @Autowired
-    //    RepositoryService repositoryService;
+    //    private ProcessEngine processEngine;
+
+    //    // 注入Service  
+    @Autowired
+    private RepositoryService repositoryService;//流程存储服务组件
+    @Autowired
+    private RuntimeService runtimeService;//运行时服务组件
+    @Autowired
+    private TaskService taskService;//流程任务组件
 
     // 测试activiti执行流程
     @RequestMapping("/doTask")
     public String doTask(){
         StringBuffer sb = new StringBuffer();
         // 得到流程存储服务组件
-        RepositoryService repositoryService = engine.getRepositoryService();
+        //        RepositoryService repositoryService = processEngine.getRepositoryService();
         // 得到运行时服务组件
-        RuntimeService runtimeService = engine.getRuntimeService();
+        //        RuntimeService runtimeService = processEngine.getRuntimeService();
         // 获取流程任务组件
-        TaskService taskService = engine.getTaskService();
+        //        TaskService taskService = processEngine.getTaskService();
         // 部署流程文件
         repositoryService.createDeployment().addClasspathResource("processes/First.bpmn").deploy();
         // 启动流程 pi为流程实例
