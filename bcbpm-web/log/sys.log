@@ -1361,3 +1361,172 @@ costTime  : 3230ms
 -------------------------------------------------------------------------------
 2018-09-19 18:17:46,004 [http-nio-8081-exec-3] INFO (SessionDeal.java:112)- session ID: A347784FF8BEF93B0C4D5832DDD3D646
 2018-09-19 18:17:46,005 [http-nio-8081-exec-3] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: A347784FF8BEF93B0C4D5832DDD3D646-FR_SID_对应的slot: 6182
+2018-09-19 19:23:06,611 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 5792 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:23:06,613 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:23:06,619 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:23:16,518 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 19:23:16,520 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 19:23:16,520 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 19:23:16,521 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 19:23:16,521 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 19:23:16,522 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 19:23:32,294 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 27.63 seconds (JVM running for 29.597)
+2018-09-19 19:25:08,140 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:08,163 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:08-------------------------------------
+Controller: com.bcbpm.controller.LoginController
+Method    : login
+Params    : input=18633981658	pwd=d0970714757783e6cf17b26fb8e2298f	
+URI       : /login
+
+2018-09-19 19:25:08,166 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:08,171 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:08,298 [http-nio-8081-exec-1] INFO (DynamicDataSourceAop.java:77)- 当前读取的DB是：back
+2018-09-19 19:25:09,186 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select userId, userName from t_user where userName =? or email =? or mobile =? 
+2018-09-19 19:25:09,231 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18633981658(String), 18633981658(String), 18633981658(String)
+2018-09-19 19:25:09,266 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-19 19:25:09,275 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select userId, userName,trueName,userState ,userPic ,email ,mobile ,enterpriseBelong ,isEnterprise ,expirationDate,effectiveDays from t_user where (userName =? or email =? or mobile =?) and userPwd=? 
+2018-09-19 19:25:09,276 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18633981658(String), 18633981658(String), 18633981658(String), d0970714757783e6cf17b26fb8e2298f(String)
+2018-09-19 19:25:09,280 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-19 19:25:09,282 [http-nio-8081-exec-1] INFO (LoginServiceImpl.java:53)- 登录成功
+2018-09-19 19:25:09,299 [http-nio-8081-exec-1] INFO (SessionDeal.java:70)- session ID: 
+2018-09-19 19:25:09,309 [http-nio-8081-exec-1] INFO (SessionDeal.java:82)- clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:09,500 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:09,543 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:09-------------------------------------
+costTime  : 1402ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:09,545 [http-nio-8081-exec-1] INFO (SessionDeal.java:112)- session ID: 
+2018-09-19 19:25:09,546 [http-nio-8081-exec-1] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:09,807 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:09,810 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:09-------------------------------------
+Controller: com.bcbpm.controller.LoginController
+Method    : login
+Params    : input=18633981658	pwd=d0970714757783e6cf17b26fb8e2298f	
+URI       : /login
+
+2018-09-19 19:25:09,810 [http-nio-8081-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:09,811 [http-nio-8081-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:09,812 [http-nio-8081-exec-2] INFO (DynamicDataSourceAop.java:77)- 当前读取的DB是：back
+2018-09-19 19:25:09,814 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select userId, userName from t_user where userName =? or email =? or mobile =? 
+2018-09-19 19:25:09,815 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18633981658(String), 18633981658(String), 18633981658(String)
+2018-09-19 19:25:09,817 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-19 19:25:09,820 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select userId, userName,trueName,userState ,userPic ,email ,mobile ,enterpriseBelong ,isEnterprise ,expirationDate,effectiveDays from t_user where (userName =? or email =? or mobile =?) and userPwd=? 
+2018-09-19 19:25:09,821 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 18633981658(String), 18633981658(String), 18633981658(String), d0970714757783e6cf17b26fb8e2298f(String)
+2018-09-19 19:25:09,827 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-19 19:25:09,832 [http-nio-8081-exec-2] INFO (LoginServiceImpl.java:53)- 登录成功
+2018-09-19 19:25:09,832 [http-nio-8081-exec-2] INFO (SessionDeal.java:70)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:09,833 [http-nio-8081-exec-2] INFO (SessionDeal.java:82)- clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:09,836 [http-nio-8081-exec-2] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:09,841 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:09-------------------------------------
+costTime  : 31ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:09,842 [http-nio-8081-exec-2] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:09,842 [http-nio-8081-exec-2] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:15,481 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:15,484 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:15-------------------------------------
+Controller: com.bcbpm.controller.SampleController
+Method    : getInfo
+Params    : userName=hfm	
+URI       : /home/getInfo
+
+2018-09-19 19:25:15,485 [http-nio-8081-exec-10] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:15,485 [http-nio-8081-exec-10] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:15,492 [http-nio-8081-exec-10] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:15,503 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:15-------------------------------------
+costTime  : 19ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:15,504 [http-nio-8081-exec-10] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:15,504 [http-nio-8081-exec-10] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:21,876 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:21,877 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:21-------------------------------------
+Controller: com.bcbpm.controller.SampleController
+Method    : getInfo
+Params    : userName=hfm	
+URI       : /home/getInfo
+
+2018-09-19 19:25:21,879 [http-nio-8081-exec-7] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:21,880 [http-nio-8081-exec-7] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:21,883 [http-nio-8081-exec-7] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:21,885 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:21-------------------------------------
+costTime  : 8ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:21,886 [http-nio-8081-exec-7] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:21,887 [http-nio-8081-exec-7] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:40,404 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:40,405 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:40-------------------------------------
+Controller: com.bcbpm.controller.SampleController
+Method    : login
+Params    : userName=hfm	password=666777	
+URI       : /home/login
+
+2018-09-19 19:25:40,406 [http-nio-8081-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:40,407 [http-nio-8081-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:40,437 [http-nio-8081-exec-4] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:40,439 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:40-------------------------------------
+costTime  : 34ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:40,440 [http-nio-8081-exec-4] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:40,440 [http-nio-8081-exec-4] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:25:52,513 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:25:52,514 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:25:52-------------------------------------
+Controller: com.bcbpm.controller.SampleController
+Method    : login
+Params    : userName=hfm	password=666777	
+URI       : /home/login
+
+2018-09-19 19:25:52,515 [http-nio-8081-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:25:52,516 [http-nio-8081-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:25:52,518 [http-nio-8081-exec-5] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:25:52,520 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:25:52-------------------------------------
+costTime  : 7ms
+-------------------------------------------------------------------------------
+2018-09-19 19:25:52,521 [http-nio-8081-exec-5] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:25:52,521 [http-nio-8081-exec-5] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:26:14,961 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:26:14,962 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:26:14-------------------------------------
+Controller: com.bcbpm.controller.SampleController
+Method    : login
+Params    : userName=hfm	password=666777	
+URI       : /home/login
+
+2018-09-19 19:26:14,962 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:26:14,963 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:26:14,964 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:26:14,966 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:26:14-------------------------------------
+costTime  : 5ms
+-------------------------------------------------------------------------------
+2018-09-19 19:26:14,967 [http-nio-8081-exec-3] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:26:14,968 [http-nio-8081-exec-3] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983
+2018-09-19 19:26:26,313 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 11328 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:26:26,316 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:26:26,322 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:28:42,160 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 10980 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:28:42,163 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:28:42,186 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:30:09,149 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 4148 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-19 19:30:09,153 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-19 19:30:09,160 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-19 19:30:20,581 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-19 19:30:20,582 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-19 19:30:20,583 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-19 19:30:20,584 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-19 19:30:20,585 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-19 19:30:20,586 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-19 19:30:35,842 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 28.39 seconds (JVM running for 29.875)
+2018-09-19 19:31:32,202 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-19 19:31:32,213 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-19 19:31:32-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-19 19:31:32,214 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-19 19:31:32,214 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-19 19:32:30,050 [http-nio-8081-exec-1] INFO (ActivitiController.java:61)- 当前流程里的任务节点名称：Expense Request
+2018-09-19 19:32:37,246 [http-nio-8081-exec-1] INFO (ActivitiController.java:70)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-19 19:32:43,625 [http-nio-8081-exec-1] INFO (ActivitiController.java:77)- 流程结束后，查找任务：null
+2018-09-19 19:32:44,633 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-19 19:32:44,768 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-19 19:32:44-------------------------------------
+costTime  : 72565ms
+-------------------------------------------------------------------------------
+2018-09-19 19:32:44,779 [http-nio-8081-exec-1] INFO (SessionDeal.java:112)- session ID: 4EDF88A3089DF34DBD7200F9AD2CDD41
+2018-09-19 19:32:44,784 [http-nio-8081-exec-1] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 4EDF88A3089DF34DBD7200F9AD2CDD41-FR_SID_对应的slot: 1983

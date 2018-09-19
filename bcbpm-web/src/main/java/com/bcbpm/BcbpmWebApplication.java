@@ -1,5 +1,6 @@
 package com.bcbpm;
 
+import org.activiti.spring.boot.SecurityAutoConfiguration;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,8 +8,10 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.stereotype.Repository;
 
 // 要是不做多数据源的话，需要把exclude = { DataSourceAutoConfiguration.class }去掉，同时打开sqlSessionFactoryRef = "sqlSessionFactory"
-//@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class })
-@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
+//@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
+// SecurityAutoConfiguration 为了兼容activiti6
+@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class })
+
 //定义实体Bean扫描包路径
 //@ComponentScan(basePackages = "com.bcbpm.*")
 //@EntityScan(basePackages = "com.bcbpm.dao.*")
