@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	 <modelVersion>4.0.0</modelVersion>
+	 <parent>
+		    <artifactId>bcbpm-boot</artifactId>
+		    <groupId>com.bcbpm</groupId>
+		    <version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>bcbpm-web</artifactId>
+	<version>1.0-SNAPSHOT</version>
+ 	<packaging>war</packaging>
+ 	
+    <description>平台web层</description>
+    
+
+	<dependencies>
+	
+		<dependency>
+	        <groupId>com.bcbpm</groupId>
+	        <artifactId>bcbpm-framework</artifactId>
+	        <version>1.0-SNAPSHOT</version>
+	        <scope>compile</scope>
+	    </dependency>
+	     <dependency>
+	          <groupId>com.bcbpm</groupId>
+	          <artifactId>bcbpm-util</artifactId>
+	          <version>1.0-SNAPSHOT</version>
+	          <scope>compile</scope>
+	      </dependency>
+	      
+	      <dependency>
+	          <groupId>com.bcbpm</groupId>
+	          <artifactId>bcbpm-service</artifactId>
+	          <version>1.0-SNAPSHOT</version>
+	          <scope>compile</scope>
+	      </dependency>
+	      
+	  	<dependency>
+	          <groupId>com.bcbpm</groupId>
+	          <artifactId>bcbpm-model</artifactId>
+	          <version>1.0-SNAPSHOT</version>
+	          <scope>compile</scope>
+	      </dependency>
+	      
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-starter-test</artifactId>
+				<scope>test</scope>
+			</dependency>
+			
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-configuration-processor</artifactId>
+				<optional>true</optional>
+			</dependency>
+	</dependencies>
+ 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+
+</project>

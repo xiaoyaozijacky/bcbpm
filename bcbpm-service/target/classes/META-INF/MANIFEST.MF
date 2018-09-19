@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: bcbpm-service
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: ja
+Implementation-Vendor-Id: com.bcbpm
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/bcbpm-boot/bcbpm-service
+Created-By: Maven Integration for Eclipse
+

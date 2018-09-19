@@ -1,0 +1,5 @@
+com\bcbpm\util\CookieUtils.class
+com\bcbpm\util\SerializeUtil.class
+com\bcbpm\util\DateUtil.class
+com\bcbpm\util\StringUtil.class
+com\bcbpm\util\TimeUtil.class

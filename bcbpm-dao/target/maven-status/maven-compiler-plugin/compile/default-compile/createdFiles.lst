@@ -1,0 +1,3 @@
+com\bcbpm\dao\login\mapper\ILoginDao.class
+com\bcbpm\dao\user\IUserDao.class
+com\bcbpm\dao\App.class

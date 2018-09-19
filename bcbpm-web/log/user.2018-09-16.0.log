@@ -1,0 +1,719 @@
+2018-09-16 15:13:16,396 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplicationTests on belikov with PID 12260 (started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:13:16,398 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:13:16,405 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:13:21,410 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 15:13:21,412 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 15:13:21,414 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 15:13:21,415 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 15:13:21,417 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 15:13:21,418 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 15:16:51,257 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 13372 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:16:51,259 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:16:51,266 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:16:56,454 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 15:16:56,455 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 15:16:56,456 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 15:16:56,457 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 15:16:56,458 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 15:16:56,459 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 15:18:24,233 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9748 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:18:24,236 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:18:24,240 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:18:45,521 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 14664 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:18:45,523 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:18:45,529 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:18:51,070 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 15:18:51,071 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 15:18:51,072 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 15:18:51,073 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 15:18:51,074 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 15:18:51,075 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 15:20:36,201 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 16256 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:20:36,203 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:20:36,208 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:20:41,609 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 15:20:41,610 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 15:20:41,611 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 15:20:41,611 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 15:20:41,612 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 15:20:41,613 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 15:20:56,438 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 21.193 seconds (JVM running for 22.071)
+2018-09-16 15:21:08,038 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 15:21:08,046 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 15:21:08-------------------------------------
+Controller: com.bcbpm.controller.LoginController
+Method    : login
+Params    : userName=hfm	password=666777	
+URI       : /home/login
+
+2018-09-16 15:21:08,047 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 15:21:08,047 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 15:21:08,167 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 15:21:08,172 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 15:21:08-------------------------------------
+costTime  : 132ms
+-------------------------------------------------------------------------------
+2018-09-16 15:21:11,646 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 15:21:11,649 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 15:21:11-------------------------------------
+Controller: com.bcbpm.controller.LoginController
+Method    : getInfo
+Params    : userName=hfm	
+URI       : /home/getInfo
+
+2018-09-16 15:21:11,649 [http-nio-8081-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 15:21:11,650 [http-nio-8081-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 15:21:11,656 [http-nio-8081-exec-2] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 15:21:11,664 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 15:21:11-------------------------------------
+costTime  : 16ms
+-------------------------------------------------------------------------------
+2018-09-16 15:50:26,304 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 3248 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:50:26,308 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:50:26,313 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:52:47,212 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 13448 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:52:47,215 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:52:47,221 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:54:10,734 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 5632 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:54:10,737 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:54:10,743 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 15:57:59,758 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 116 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 15:57:59,760 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 15:57:59,767 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:01:09,294 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 8428 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:01:09,297 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:01:09,306 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:02:44,425 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 832 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:02:44,427 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:02:44,432 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:02:51,751 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:02:51,752 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:02:51,753 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:02:51,754 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:02:51,754 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:02:51,755 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:03:08,123 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 25.495 seconds (JVM running for 27.114)
+2018-09-16 16:04:36,814 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:04:36,821 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:04:36-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=1	
+URI       : /user/getUser
+
+2018-09-16 16:04:36,822 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:04:36,827 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:05:21,197 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 2368 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:05:21,201 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:05:21,207 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:05:32,120 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:05:32,121 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:05:32,127 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:05:32,127 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:05:32,128 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:05:32,129 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:05:47,847 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 29.0 seconds (JVM running for 30.85)
+2018-09-16 16:06:48,256 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:06:48,271 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:06:48-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=1	
+URI       : /user/getUser
+
+2018-09-16 16:06:48,276 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:06:48,277 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:06:56,567 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, user_name as userName, note from t_user where id = ? 
+2018-09-16 16:06:56,597 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2018-09-16 16:06:56,634 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 16:06:56,790 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:06:56,822 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:06:56-------------------------------------
+costTime  : 8565ms
+-------------------------------------------------------------------------------
+2018-09-16 16:07:16,377 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:07:16,378 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:07:16-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=6	
+URI       : /user/getUser
+
+2018-09-16 16:07:16,378 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:07:16,378 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:07:21,387 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, user_name as userName, note from t_user where id = ? 
+2018-09-16 16:07:21,389 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 6(Long)
+2018-09-16 16:07:21,392 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 16:07:21,397 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:07:21,399 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:07:21-------------------------------------
+costTime  : 5022ms
+-------------------------------------------------------------------------------
+2018-09-16 16:07:35,719 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:07:35,720 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:07:35-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=2	
+URI       : /user/getUser
+
+2018-09-16 16:07:35,721 [http-nio-8081-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:07:35,722 [http-nio-8081-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:07:38,911 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, user_name as userName, note from t_user where id = ? 
+2018-09-16 16:07:38,913 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Long)
+2018-09-16 16:07:38,916 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 16:07:38,920 [http-nio-8081-exec-5] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:07:38,922 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:07:38-------------------------------------
+costTime  : 3202ms
+-------------------------------------------------------------------------------
+2018-09-16 16:07:47,286 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:07:47,287 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:07:47-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=1	
+URI       : /user/getUser
+
+2018-09-16 16:07:47,287 [http-nio-8081-exec-7] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:07:47,289 [http-nio-8081-exec-7] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:07:50,688 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, user_name as userName, note from t_user where id = ? 
+2018-09-16 16:07:50,690 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Long)
+2018-09-16 16:07:50,693 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 16:07:50,698 [http-nio-8081-exec-7] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:07:50,702 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:07:50-------------------------------------
+costTime  : 3416ms
+-------------------------------------------------------------------------------
+2018-09-16 16:08:00,484 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:08:00,485 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:08:00-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=2	
+URI       : /user/getUser
+
+2018-09-16 16:08:00,486 [http-nio-8081-exec-9] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:08:00,487 [http-nio-8081-exec-9] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:08:00,491 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select id, user_name as userName, note from t_user where id = ? 
+2018-09-16 16:08:00,492 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Long)
+2018-09-16 16:08:00,494 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-16 16:08:00,497 [http-nio-8081-exec-9] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:08:00,499 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:08:00-------------------------------------
+costTime  : 14ms
+-------------------------------------------------------------------------------
+2018-09-16 16:09:13,142 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:09:13,145 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:09:13-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:09:13,146 [http-nio-8081-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:09:13,146 [http-nio-8081-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:09:19,194 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:09:19,230 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源(String), 希望一次过(String)
+2018-09-16 16:09:19,318 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:09:21,240 [http-nio-8081-exec-2] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:09:21,255 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:09:21-------------------------------------
+costTime  : 8110ms
+-------------------------------------------------------------------------------
+2018-09-16 16:09:46,284 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:09:46,285 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:09:46-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源2	note=希望一次过	flg=1	
+URI       : /user/insertUser
+
+2018-09-16 16:09:46,287 [http-nio-8081-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:09:46,288 [http-nio-8081-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:09:53,238 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:09:53,273 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源2(String), 希望一次过(String)
+2018-09-16 16:09:53,300 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:10:09,395 [http-nio-8081-exec-4] ERROR (GlobalControllerAccessHandler.java:61)- 业务异常：保存用户失败
+2018-09-16 16:12:43,159 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:12:43,160 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:12:43-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源3	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:12:43,161 [http-nio-8081-exec-7] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:12:43,161 [http-nio-8081-exec-7] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:12:55,532 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:12:55,537 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源3(String), 希望一次过(String)
+2018-09-16 16:12:55,541 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:12:55,576 [http-nio-8081-exec-7] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:12:55,579 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:12:55-------------------------------------
+costTime  : 12418ms
+-------------------------------------------------------------------------------
+2018-09-16 16:13:25,145 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:13:25,148 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:13:25-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源4	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:13:25,150 [http-nio-8081-exec-9] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:13:25,151 [http-nio-8081-exec-9] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:13:39,178 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:13:39,184 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源4(String), 希望一次过(String)
+2018-09-16 16:13:39,187 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:13:39,233 [http-nio-8081-exec-9] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:13:39,235 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:13:39-------------------------------------
+costTime  : 14087ms
+-------------------------------------------------------------------------------
+2018-09-16 16:13:51,951 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:13:51,952 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:13:51-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:13:51,952 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:13:51,952 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:14:01,912 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:14:01,914 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:14:01,917 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:14:01,980 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:14:01,982 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:14:01-------------------------------------
+costTime  : 10030ms
+-------------------------------------------------------------------------------
+2018-09-16 16:15:10,531 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 632 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:15:10,534 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:15:10,539 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:15:18,701 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:15:18,703 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:15:18,703 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:15:18,704 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:15:18,705 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:15:18,706 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:15:34,845 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 26.468 seconds (JVM running for 28.232)
+2018-09-16 16:16:13,728 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:16:13,743 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:16:13-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:16:13,744 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:16:13,744 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:16:46,693 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:16:46,755 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:16:46,774 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:16:46,925 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:16:47,098 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:16:47-------------------------------------
+costTime  : 33364ms
+-------------------------------------------------------------------------------
+2018-09-16 16:18:49,433 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:18:49,434 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:18:49-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:18:49,435 [http-nio-8081-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:18:49,436 [http-nio-8081-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:18:56,911 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:18:56,913 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:18:56,915 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:18:56,963 [http-nio-8081-exec-4] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:18:56,966 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:18:56-------------------------------------
+costTime  : 7532ms
+-------------------------------------------------------------------------------
+2018-09-16 16:20:45,470 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:20:45,472 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:20:45-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:20:45,480 [http-nio-8081-exec-8] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:20:45,481 [http-nio-8081-exec-8] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:20:53,661 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:20:53,664 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:20:53,666 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:20:53,723 [http-nio-8081-exec-8] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:20:53,725 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:20:53-------------------------------------
+costTime  : 8253ms
+-------------------------------------------------------------------------------
+2018-09-16 16:21:09,919 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:21:09,922 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:21:09-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:21:09,923 [http-nio-8081-exec-9] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:21:09,923 [http-nio-8081-exec-9] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:21:20,452 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:21:20,454 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:21:20,459 [http-nio-8081-exec-9] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:21:20,499 [http-nio-8081-exec-9] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:21:20,501 [http-nio-8081-exec-9] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:21:20-------------------------------------
+costTime  : 10581ms
+-------------------------------------------------------------------------------
+2018-09-16 16:21:34,065 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:21:34,068 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:21:34-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:21:34,069 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:21:34,069 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:21:41,361 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:21:41,363 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:21:41,366 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:21:41,426 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:21:41,430 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:21:41-------------------------------------
+costTime  : 7363ms
+-------------------------------------------------------------------------------
+2018-09-16 16:21:48,732 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:21:48,733 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:21:48-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:21:48,733 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:21:48,734 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:21:53,756 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:21:53,759 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:21:53,761 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:21:53,802 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:21:53,804 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:21:53-------------------------------------
+costTime  : 5072ms
+-------------------------------------------------------------------------------
+2018-09-16 16:21:59,827 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:21:59,828 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:21:59-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:21:59,829 [http-nio-8081-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:21:59,829 [http-nio-8081-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:22:06,162 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:22:06,164 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:22:06,166 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:22:06,211 [http-nio-8081-exec-5] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:22:06,214 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:22:06-------------------------------------
+costTime  : 6386ms
+-------------------------------------------------------------------------------
+2018-09-16 16:22:18,476 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:22:18,478 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:22:18-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:22:18,480 [http-nio-8081-exec-8] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:22:18,483 [http-nio-8081-exec-8] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:22:23,307 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:22:23,311 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:22:23,314 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:22:23,380 [http-nio-8081-exec-8] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:22:23,384 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:22:23-------------------------------------
+costTime  : 4906ms
+-------------------------------------------------------------------------------
+2018-09-16 16:22:26,873 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:22:26,874 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:22:26-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:22:26,874 [http-nio-8081-exec-7] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:22:26,875 [http-nio-8081-exec-7] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:23:03,203 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:23:03,205 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:23:03,207 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:23:03,277 [http-nio-8081-exec-7] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:23:03,279 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:23:03-------------------------------------
+costTime  : 36406ms
+-------------------------------------------------------------------------------
+2018-09-16 16:30:29,283 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 10772 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:30:29,286 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:30:29,292 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:30:36,318 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:30:36,321 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:30:36,322 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:30:36,327 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:30:36,327 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:30:36,328 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:30:52,551 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 25.125 seconds (JVM running for 26.908)
+2018-09-16 16:31:49,621 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:31:49,631 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:31:49-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:31:49,633 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:31:49,638 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:32:03,594 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:32:03,645 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:32:03,652 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:32:03,803 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:32:03,996 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:32:03-------------------------------------
+costTime  : 14374ms
+-------------------------------------------------------------------------------
+2018-09-16 16:35:27,737 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9388 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:35:27,740 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:35:27,746 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:35:35,418 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:35:35,419 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:35:35,420 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:35:35,421 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:35:35,422 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:35:35,424 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:35:52,546 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 26.7 seconds (JVM running for 28.414)
+2018-09-16 16:35:53,032 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:35:53,055 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:35:53-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:35:53,056 [http-nio-8081-exec-10] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:35:53,058 [http-nio-8081-exec-10] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:35:57,886 [http-nio-8081-exec-10] INFO (UserServiceImpl.java:35)- rd等于：4，目前使用从库
+2018-09-16 16:35:57,930 [http-nio-8081-exec-10] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:35:57,979 [http-nio-8081-exec-10] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:35:57,988 [http-nio-8081-exec-10] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:35:58,083 [http-nio-8081-exec-10] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:35:58,246 [http-nio-8081-exec-10] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:35:58-------------------------------------
+costTime  : 5214ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:14,354 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:14,355 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:14-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:14,360 [http-nio-8081-exec-8] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:14,364 [http-nio-8081-exec-8] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:14,365 [http-nio-8081-exec-8] INFO (UserServiceImpl.java:35)- rd等于：6，目前使用从库
+2018-09-16 16:36:14,368 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:14,370 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:14,372 [http-nio-8081-exec-8] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:14,441 [http-nio-8081-exec-8] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:14,443 [http-nio-8081-exec-8] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:14-------------------------------------
+costTime  : 88ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:17,765 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:17,766 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:17-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:17,766 [http-nio-8081-exec-7] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:17,767 [http-nio-8081-exec-7] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:17,768 [http-nio-8081-exec-7] INFO (UserServiceImpl.java:35)- rd等于：4，目前使用从库
+2018-09-16 16:36:17,770 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:17,774 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:17,778 [http-nio-8081-exec-7] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:17,798 [http-nio-8081-exec-7] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:17,800 [http-nio-8081-exec-7] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:17-------------------------------------
+costTime  : 34ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:18,929 [http-nio-8081-exec-6] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:18,930 [http-nio-8081-exec-6] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:18-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:18,932 [http-nio-8081-exec-6] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:18,933 [http-nio-8081-exec-6] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:18,936 [http-nio-8081-exec-6] INFO (UserServiceImpl.java:35)- rd等于：4，目前使用从库
+2018-09-16 16:36:18,939 [http-nio-8081-exec-6] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:18,940 [http-nio-8081-exec-6] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:18,945 [http-nio-8081-exec-6] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:19,000 [http-nio-8081-exec-6] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:19,002 [http-nio-8081-exec-6] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:19-------------------------------------
+costTime  : 72ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:20,122 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:20,123 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:20-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:20,127 [http-nio-8081-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:20,128 [http-nio-8081-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:20,129 [http-nio-8081-exec-5] INFO (UserServiceImpl.java:35)- rd等于：4，目前使用从库
+2018-09-16 16:36:20,131 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:20,133 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:20,134 [http-nio-8081-exec-5] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:20,182 [http-nio-8081-exec-5] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:20,184 [http-nio-8081-exec-5] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:20-------------------------------------
+costTime  : 61ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:21,132 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:21,133 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:21-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:21,134 [http-nio-8081-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:21,134 [http-nio-8081-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:21,136 [http-nio-8081-exec-4] INFO (UserServiceImpl.java:35)- rd等于：4，目前使用从库
+2018-09-16 16:36:21,138 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:21,142 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:21,143 [http-nio-8081-exec-4] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:21,173 [http-nio-8081-exec-4] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:21,176 [http-nio-8081-exec-4] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:21-------------------------------------
+costTime  : 43ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:22,120 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:22,121 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:22-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:22,122 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:22,122 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:22,129 [http-nio-8081-exec-3] INFO (UserServiceImpl.java:38)- rd:等于：7，目前使用主库
+2018-09-16 16:36:22,131 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:22,133 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:22,135 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:22,157 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:22,161 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:22-------------------------------------
+costTime  : 40ms
+-------------------------------------------------------------------------------
+2018-09-16 16:36:58,665 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:36:58,667 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:36:58-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:36:58,668 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:36:58,668 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:36:58,670 [http-nio-8081-exec-1] INFO (UserServiceImpl.java:38)- rd:等于：7，目前使用主库
+2018-09-16 16:36:58,674 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:36:58,676 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:36:58,679 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:36:58,753 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:36:58,756 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:36:58-------------------------------------
+costTime  : 89ms
+-------------------------------------------------------------------------------
+2018-09-16 16:39:22,007 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 10936 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:39:22,010 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:39:22,017 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:40:18,547 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:40:18,549 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:40:18,550 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:40:18,551 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:40:18,551 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:40:18,554 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:40:31,535 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 15968 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:40:31,537 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:40:31,544 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:42:07,950 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:42:07,954 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:42:07,956 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:42:07,968 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:42:07,969 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:42:07,972 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:43:02,979 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 153.336 seconds (JVM running for 155.136)
+2018-09-16 16:43:49,959 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:43:49,968 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:43:49-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:43:49,969 [http-nio-8081-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:43:49,974 [http-nio-8081-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:43:58,103 [http-nio-8081-exec-2] INFO (UserServiceImpl.java:38)- rd:等于：1，目前使用主库
+2018-09-16 16:44:18,313 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:44:18,362 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:44:18,369 [http-nio-8081-exec-2] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:44:18,491 [http-nio-8081-exec-2] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:44:18,629 [http-nio-8081-exec-2] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:44:18-------------------------------------
+costTime  : 28669ms
+-------------------------------------------------------------------------------
+2018-09-16 16:45:16,397 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 14984 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:45:16,400 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:45:16,408 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:45:23,939 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:45:23,941 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:45:23,942 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:45:23,942 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:45:23,943 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:45:23,945 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:45:40,154 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 25.837 seconds (JVM running for 27.484)
+2018-09-16 16:50:29,881 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:50:29,888 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:50:29-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : getUser
+Params    : id=2	
+URI       : /user/getUser
+
+2018-09-16 16:50:29,889 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:50:29,890 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:51:16,410 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 14768 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:51:16,412 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:51:16,422 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:51:26,665 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:51:26,667 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:51:26,668 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:51:26,669 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:51:26,672 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:51:26,674 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:51:44,995 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 31.512 seconds (JVM running for 33.874)
+2018-09-16 16:52:26,169 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:52:26,179 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:52:26-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:52:26,180 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:52:26,181 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:53:11,025 [http-nio-8081-exec-1] INFO (UserServiceImpl.java:35)- rd等于：0，目前使用从库
+2018-09-16 16:53:18,560 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:53:18,638 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:53:18,645 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:53:18,764 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:53:18,929 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:53:18-------------------------------------
+costTime  : 52759ms
+-------------------------------------------------------------------------------
+2018-09-16 16:55:20,806 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 15352 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-16 16:55:20,810 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-16 16:55:20,819 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-16 16:55:29,664 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-16 16:55:29,667 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-16 16:55:29,668 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-16 16:55:29,669 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-16 16:55:29,670 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-16 16:55:29,671 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-16 16:55:46,869 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 28.337 seconds (JVM running for 29.908)
+2018-09-16 16:55:50,939 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:55:50,948 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:55:50-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:55:50,950 [http-nio-8081-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:55:50,954 [http-nio-8081-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:55:57,279 [http-nio-8081-exec-1] INFO (UserController.java:55)- rd等于：4，目前使用从库
+2018-09-16 16:56:29,175 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:56:32,901 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:56:32,980 [http-nio-8081-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:56:47,489 [http-nio-8081-exec-1] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:56:47,644 [http-nio-8081-exec-1] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:56:47-------------------------------------
+costTime  : 56704ms
+-------------------------------------------------------------------------------
+2018-09-16 16:57:01,277 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:33)- 进入url请求信息记录拦截器
+2018-09-16 16:57:01,279 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:47)- -----------------------2018-09-16 16:57:01-------------------------------------
+Controller: com.bcbpm.controller.user.UserController
+Method    : insertUser
+Params    : userName=多数据源5	note=希望一次过	
+URI       : /user/insertUser
+
+2018-09-16 16:57:01,280 [http-nio-8081-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-16 16:57:01,284 [http-nio-8081-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-16 16:57:04,706 [http-nio-8081-exec-3] INFO (UserController.java:58)- rd:等于：7，目前使用主库
+2018-09-16 16:57:20,050 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into t_user(user_name, note) value(?, ?) 
+2018-09-16 16:57:20,052 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 多数据源5(String), 希望一次过(String)
+2018-09-16 16:57:20,055 [http-nio-8081-exec-3] DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-16 16:57:20,111 [http-nio-8081-exec-3] INFO (GlobalControllerAccessHandler.java:47)- 系统正常返回
+2018-09-16 16:57:20,113 [http-nio-8081-exec-3] INFO (AccessRecordInterceptor.java:85)- -----------------------2018-09-16 16:57:20-------------------------------------
+costTime  : 18834ms
+-------------------------------------------------------------------------------

@@ -1,0 +1,20 @@
+2018-09-18 10:56:50,024 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplicationTests on belikov with PID 1684 (started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-18 10:56:50,035 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-18 10:56:50,107 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-18 10:56:54,067 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-18 10:56:54,069 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-18 10:56:54,070 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-18 10:56:54,070 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-18 10:56:54,072 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-18 10:56:54,073 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-18 10:57:08,768 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplicationTests in 19.669 seconds (JVM running for 21.27)
+2018-09-18 11:08:54,821 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplicationTests on belikov with PID 13344 (started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-18 11:08:54,823 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-18 11:08:54,907 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-18 11:08:58,256 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-18 11:08:58,257 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-18 11:08:58,258 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-18 11:08:58,259 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-18 11:08:58,261 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-18 11:08:58,262 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-18 11:09:12,925 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplicationTests in 18.863 seconds (JVM running for 20.847)
