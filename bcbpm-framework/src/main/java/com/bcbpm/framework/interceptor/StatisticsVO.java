@@ -15,7 +15,7 @@ public class StatisticsVO implements Serializable{
     private String accessTime;//访问时间
     private String userId;//访问人员
 
-    private String enterpriseBelong;//所属企业号
+    private String tenantId;//租户标识
     private String id;//主键
 
     public String getControllerName(){
@@ -90,12 +90,12 @@ public class StatisticsVO implements Serializable{
         this.userId = userId;
     }
 
-    public String getEnterpriseBelong(){
-        return enterpriseBelong;
+    public String getTenantId(){
+        return tenantId;
     }
 
-    public void setEnterpriseBelong(String enterpriseBelong){
-        this.enterpriseBelong = enterpriseBelong;
+    public void setTenantId(String tenantId){
+        this.tenantId = tenantId;
     }
 
     public String getId(){

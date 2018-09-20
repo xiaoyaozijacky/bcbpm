@@ -11,7 +11,7 @@
 	           or mobile =#{input}
 	</select>
 	<select id="getUserInfo" resultType="user">
-	  	 select userId, userName,trueName,userState ,userPic ,email ,mobile ,enterpriseBelong ,isEnterprise ,expirationDate,effectiveDays 
+	  	 select userId, userName,trueName,userState ,userPic ,email ,mobile ,tenantId ,isEnterprise ,expirationDate,effectiveDays 
 	   	 from t_user
 	     where (userName =#{input} or email =#{input} or mobile =#{input})
 	           and userPwd=#{pwd}

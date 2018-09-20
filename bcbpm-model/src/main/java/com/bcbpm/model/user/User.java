@@ -15,7 +15,7 @@ public class User implements Serializable{
     private String userPic;
     private String email;
     private String mobile;
-    private String enterpriseBelong;
+    private String tenantId;//租户标识
     private Integer isEnterprise;//是否是企业号申请人 0:不是 1:是
     private Date expirationDate;// 企业号到期日期
     private Integer effectiveDays;//购买有效天数
@@ -69,12 +69,12 @@ public class User implements Serializable{
         this.mobile = mobile;
     }
 
-    public String getEnterpriseBelong(){
-        return enterpriseBelong;
+    public String getTenantId(){
+        return tenantId;
     }
 
-    public void setEnterpriseBelong(String enterpriseBelong){
-        this.enterpriseBelong = enterpriseBelong;
+    public void setTenantId(String tenantId){
+        this.tenantId = tenantId;
     }
 
     public Integer getIsEnterprise(){

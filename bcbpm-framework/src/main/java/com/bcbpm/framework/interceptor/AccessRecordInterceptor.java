@@ -125,7 +125,7 @@ public class AccessRecordInterceptor extends HandlerInterceptorAdapter{
         svo.setRequestParams(requestParams);
         User user = (User) sessionDeal.getNowUserFront(request);
         if(user != null){
-            svo.setEnterpriseBelong(user.getEnterpriseBelong());
+            svo.setTenantId(user.getTenantId());
             svo.setUserId(user.getUserId());
         }else{
             logger.info("The method " + methodName + "未登录执行");
