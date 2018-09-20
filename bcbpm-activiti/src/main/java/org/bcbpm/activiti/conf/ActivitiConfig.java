@@ -50,6 +50,7 @@ public class ActivitiConfig{
         configuration.setDataSource(dataSource);
         configuration.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
         configuration.setAsyncExecutorActivate(false);
+        //        configuration.setCreateDiagramOnDeploy(false); 是否需要在部署时同时生成流程图
         return configuration;
     }
 
