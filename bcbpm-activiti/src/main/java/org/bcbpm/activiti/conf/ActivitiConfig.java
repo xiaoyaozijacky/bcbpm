@@ -3,8 +3,6 @@
  */
 package org.bcbpm.activiti.conf;
 
-//import java.io.IOException;
-
 import javax.sql.DataSource;
 
 import org.activiti.engine.HistoryService;
@@ -16,14 +14,9 @@ import org.activiti.engine.RepositoryService;
 import org.activiti.engine.RuntimeService;
 import org.activiti.engine.TaskService;
 import org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration;
-//import org.activiti.spring.SpringProcessEngineConfiguration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-//import org.springframework.core.io.Resource;
-//import org.springframework.core.io.ResourceLoader;
-//import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
-//import org.springframework.transaction.PlatformTransactionManager;
 
 /**<p>Title: ActivitiConfig</p>
 * <p>Company: bcbpm</p> 
@@ -49,7 +42,7 @@ public class ActivitiConfig{
         StandaloneProcessEngineConfiguration configuration = new StandaloneProcessEngineConfiguration();
         configuration.setDataSource(dataSource);
         configuration.setDatabaseSchemaUpdate(ProcessEngineConfiguration.DB_SCHEMA_UPDATE_TRUE);
-        configuration.setAsyncExecutorActivate(false);
+        //        configuration.setAsyncExecutorActivate(false);
         //        configuration.setCreateDiagramOnDeploy(false); 是否需要在部署时同时生成流程图
         return configuration;
     }

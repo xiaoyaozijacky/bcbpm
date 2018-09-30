@@ -16,7 +16,14 @@
     
 
 	<dependencies>
-	
+			<!--排除冲突-->
+			 <exclusions>
+                <exclusion>
+                   <groupId>org.slf4j</groupId>
+				    <artifactId>slf4j-log4j12</artifactId>
+                </exclusion>
+            </exclusions>
+            
 		<dependency>
 	        <groupId>com.bcbpm</groupId>
 	        <artifactId>bcbpm-framework</artifactId>
@@ -62,6 +69,7 @@
 				<artifactId>spring-boot-configuration-processor</artifactId>
 				<optional>true</optional>
 			</dependency>
+			
 	</dependencies>
  
 	<build>

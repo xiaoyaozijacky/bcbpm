@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 @SpringBootApplication(exclude = { DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class })
 
 //定义实体Bean扫描包路径
-//@ComponentScan(basePackages = "com.bcbpm.*")
+//@ComponentScan(basePackages = { "com.bcbpm.*", "org.activiti.app.*", "org.activiti.content.*" })
 //@EntityScan(basePackages = "com.bcbpm.dao.*")
 //@MapperScan(basePackages = "com.bcbpm.dao.*", sqlSessionFactoryRef = "sqlSessionFactory", annotationClass = Repository.class)
 @MapperScan(basePackages = "com.bcbpm.dao.*", annotationClass = Repository.class)
