@@ -2,100 +2,100 @@
    "GENERAL": {
         "MAIN-TITLE": "Activiti",
         "ERROR": {
-            "GENERIC": "Sorry, an error occured...",
-            "UNKNOWN": "Sorry, an error occured while performing the requested operation.",
-            "BAD_REQUEST": "An error occured while performing the requested operation",
-            "NOT_FOUND": "The resource you are trying to access does not exist",
-            "UNAUTHORIZED": "You should sign in in order to perform the requested operation.",
-            "FORBIDDEN": "You are not allowed to perform the requested operation",
-            "INTERNAL_SERVER_ERROR": "Sorry, an unexpected error occured while performing the requested operation.",
-            "QUOTA-EXCEEDED-RUNTIME-APPS": "As a trial user, you can only have {{quota}} apps deployed at the same time.",
-            "QUOTA-EXCEEDED-LICENSE-APPS": "The license only permits {{quota}} apps deployed at the same time."
+            "GENERIC": "对不起，一个错误发生了。",
+            "UNKNOWN": "对不起，在执行所请求的操作时发生了错误。",
+            "BAD_REQUEST": "在执行请求操作时出现错误",
+            "NOT_FOUND": "你试图访问的资源并不存在",
+            "UNAUTHORIZED": "你应该登录，以便执行所要求的操作。",
+            "FORBIDDEN": "你不被允许执行所要求的操作",
+            "INTERNAL_SERVER_ERROR": "对不起，在执行所请求的操作时发生了意外的错误。",
+            "QUOTA-EXCEEDED-RUNTIME-APPS": "作为一个试用用户，你只能在同一时间部署配额应用。",
+            "QUOTA-EXCEEDED-LICENSE-APPS": "许可证只允许在同一时间部署的配额应用。"
         },
         "ACTION": {
-            "LOGOUT": "Sign out",
-            "HELP": "Getting started",
-            "EDIT-PROFILE": "Edit profile",
-            "SAVE": "Save",
-            "CANCEL": "Cancel",
-            "CLOSE": "Close",
-            "DEPLOY": "Deploy",
-            "ABOUT": "About Alfresco Activiti"
+            "LOGOUT": "登出",
+            "HELP": "入门",
+            "EDIT-PROFILE": "编辑配置文件",
+            "SAVE": "保存",
+            "CANCEL": "取消",
+            "CLOSE": "关闭",
+            "DEPLOY": "部署",
+            "ABOUT": "关于 Alfresco Activiti"
         }
     },
     "LOGIN": {
-        "TITLE": "Sign in",
-        "USERNAME": "Username",
-        "USERNAME-PLACEHOLDER": "Enter your username",
-        "PASSWORD": "Password",
-        "PASSWORD-PLACEHOLDER": "Enter your password",
-        "INVALID-CREDENTIALS": "Invalid credentials",
+        "TITLE": "登录",
+        "USERNAME": "用户名",
+        "USERNAME-PLACEHOLDER": "输入您的用户名",
+        "PASSWORD": "密码",
+        "PASSWORD-PLACEHOLDER": "输入密码",
+        "INVALID-CREDENTIALS": "无效的凭证",
         "ACTION": {
-            "CONFIRM": "Sign in"
+            "CONFIRM": "登录"
         }
     },
     "ACCOUNT": {
         "ACTIVATE": {
-          "TITLE": "Activate account",
-          "ACTIVATING-MESSAGE": "Hold on tight {{userFullName}} we're activating your account...",
-          "SUCCESS-MESSAGE": "Your account has been activated. Please sign in below to start designing and running processes",
-          "FAILURE-MESSAGE": "Your account cannot be activated. Either it has already been activated or the activation link has expired."
+          "TITLE": "激活账户",
+          "ACTIVATING-MESSAGE": "{{userFullName}}请等待，我们正在激活你的账号。",
+          "SUCCESS-MESSAGE": "你的帐号不能被激活。 请在下面登录，开始设计和运行流程。",
+          "FAILURE-MESSAGE": "你的帐号不能被激活。它已经被激活或激活链接已经失效。"
         },
 
         "RESET-PASSWORD-REQUEST": {
-          "MESSAGE": "Forgot your password? Enter your email address below to receive an email to reset your password.",
-          "TITLE": "Reset password",
-          "EMAIL": "Email address",
-          "EMAIL-PLACEHOLDER": "Enter your email",
-          "SECURITY-SECTION": "Security check",
-          "CONFIRM": "Request password reset",
-          "SUCCESS-MESSAGE": "You will receive a mail shortly with a link to reset your password.",
+          "MESSAGE": "忘记了你的密码?输入你的电子邮件地址，收到一封电子邮件来重置你的密码。",
+          "TITLE": "重置密码",
+          "EMAIL": "电子邮件地址",
+          "EMAIL-PLACEHOLDER": "输入你的电子邮件",
+          "SECURITY-SECTION": "安全检查",
+          "CONFIRM": "请求密码重置",
+          "SUCCESS-MESSAGE": "你将很快收到一封邮件，并重新设置你的密码。",
           "ERROR": {
-              "UNEXISTING-USER": "User with the given email address does not exist."
+              "UNEXISTING-USER": "使用给定的电子邮件地址的用户不存在。"
           }
         },
 
         "RESET-PASSWORD": {
-          "TITLE": "Reset password",
-          "PASSWORD": "Password",
-          "PASSWORD-CONFIRM": "Confirm password",
-          "PASSWORD-PLACEHOLDER": "Enter a new password",
-          "PASSWORD-CONFIRM-PLACEHOLDER": "Confirm the new password",
-          "CONFIRM": "Change password",
-          "LOADING": "Resetting password...",
-          "SUCCESS-MESSAGE": "Your password has been changed.",
-          "LOGIN": "Sign in now",
-          "FAILURE-MESSAGE": "Your password cannot be reset. The reset link is invalid or expired."
+          "TITLE": "重置密码",
+          "PASSWORD": "密码",
+          "PASSWORD-CONFIRM": "确认密码",
+          "PASSWORD-PLACEHOLDER": "输入一个新密码",
+          "PASSWORD-CONFIRM-PLACEHOLDER": "确认新密码",
+          "CONFIRM": "更改密码",
+          "LOADING": "重置密码",
+          "SUCCESS-MESSAGE": "你的密码已经改变了。",
+          "LOGIN": "现在登录",
+          "FAILURE-MESSAGE": "你的密码不能重置。"
         }
     },
     "APP": {
         "KICKSTART": {
-            "TITLE": "Kickstart App",
-            "DESCRIPTION": "Create process models, forms and app definitions, then share your models and definitions with other people."
+            "TITLE": "启动应用程序",
+            "DESCRIPTION": "创建流程模型、表单和应用定义，然后与他人分享您的模型和定义。"
         },
         "TASKS": {
-            "TITLE": "Task App",
-            "DESCRIPTION": "Access your full task list and work on any tasks assigned to you from any process app. Also, start new processes and tasks."
+            "TITLE": "任务",
+            "DESCRIPTION": "访问你的完整任务列表，并在任何流程应用中分配给你的任务。同时，开始新的流程和任务。"
         },
         "IDENTITY-MANAGEMENT": {
-            "TITLE": "Identity management",
-            "TITLE-TENANT-ADMIN": "Identity management",
-            "DESCRIPTION": "Manage your profile: change your picture, name and other settings. As an admin user, manage users and groups.",
-            "DESCRIPTION-TENANT-ADMIN": "Manage the users and groups in your organization."
+            "TITLE": "身份管理",
+            "TITLE-TENANT-ADMIN": "身份管理",
+            "DESCRIPTION": "管理你的个人资料:改变你的照片，名字和其他的设置。作为一名管理用户，管理用户和组。",
+            "DESCRIPTION-TENANT-ADMIN": "管理组织中的用户和组。"
         },
         "CUSTOM-APP" : {
-            "TITLE-TASKS": "tasks",
-            "TITLE-PROCESSES": "processes"
+            "TITLE-TASKS": "任务",
+            "TITLE-PROCESSES": "流程"
         },
         "POPUP" : {
-            "ADD-APP-TITLE": "Add app to landing page",
-            "ADD-APP-SUMMARY": "Add an app to your landing page"
+            "ADD-APP-TITLE": "添加应用到登陆页面",
+            "ADD-APP-SUMMARY": "在你的登陆页面上添加一个应用程序"
         },
         "ACTION": {
-            "DELETE": "Remove app"
+            "DELETE": "删除应用程序"
         },
         "MESSAGE": {
-            "DELETED": "App was successfully removed"
+            "DELETED": "应用程序被成功移除"
         }
     }
 }

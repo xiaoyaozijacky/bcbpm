@@ -53,14 +53,19 @@ public interface ModelRelationRepository{
     @Select(" select id, parent_model_id as parentModelId, model_id as modelId, relation_type as type from ACT_DE_MODEL_RELATION where parent_model_id =#{parentModelId} and relation_type=#{type}  ")
     List<ModelRelation> findByParentModelIdAndType(String parentModelId, String type);
 
+    @Select(" select id, parent_model_id as parentModelId, model_id as modelId, relation_type as type from ACT_DE_MODEL_RELATION where model_id =#{modelId}  ")
     List<ModelRelation> findByChildModelId(String modelId);
 
+    @Select(" select id, parent_model_id as parentModelId, model_id as modelId, relation_type as type from ACT_DE_MODEL_RELATION where model_id =#{modelId} and relation_type=#{type}  ")
     List<ModelRelation> findByChildModelIdAndType(String modelId, String type);
 
+    @Select(" select mr.id, mr.parent_model_id as parentModelId, mr.model_id as modelId, mr.relation_type as type from ACT_DE_MODEL_RELATION mr, ACT_DE_MODEL md where md.id=mr.model_id and mr.parent_model_id =#{parentModelId} ")
     List<ModelInformation> findModelInformationByParentModelId(String parentModelId);
 
+    @Select(" select mr.id, mr.parent_model_id as parentModelId, mr.model_id as modelId, mr.relation_type as type from ACT_DE_MODEL_RELATION mr, ACT_DE_MODEL md where md.id=mr.model_id and mr.model_id =#{modelId} ")
     List<ModelInformation> findModelInformationByChildModelId(String modelId);
 
+    @Delete(" delete from ACT_DE_MODEL_RELATION where parent_model_id =#{parentModelId} ")
     void deleteModelRelationsForParentModel(String parentModelId);
 
     @Delete(" delete from ACT_DE_MODEL_RELATION where id =#{id} ")

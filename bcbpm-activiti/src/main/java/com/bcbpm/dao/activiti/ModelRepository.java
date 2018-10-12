@@ -28,8 +28,8 @@ import com.bcbpm.model.domain.editor.Model;
 @Repository
 public interface ModelRepository{
     // 查询模型主sql
-    public final static String queryModel = " id,name,model_key as modelKey, description, model_comment as comment ,created, created_by as createdBy, "
-            + " last_updated as lastUpdated ,last_updated_by as lastUpdatedBy, version, model_editor_json as modelEditorJson, thumbnail, model_type as modelType ";
+    public final static String queryModel = "md.id,md.name,md.model_key as modelKey, md.description, md.model_comment as comment ,md.created, md.created_by as createdBy, "
+            + " md.last_updated as lastUpdated ,md.last_updated_by as lastUpdatedBy, md.version, md.model_editor_json as modelEditorJson, md.thumbnail, md.model_type as modelType ";
 
     //    @Query("from Model as model where model.createdBy = :user and model.modelType = :modelType")
     //    List<Model> findModelsCreatedBy(String createdBy,Integer modelType, Sort sort);
@@ -61,30 +61,33 @@ public interface ModelRepository{
     //    @Query("select model.key from Model as model where model.id = :modelId and model.createdBy = :user")
     //    String appDefinitionIdByModelAndUser(String modelId, String user);
 
-    @Select(" select " + queryModel + " from ACT_DE_MODEL where created_by =#{createdBy} and model_type =#{modelType} ")
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md where md.created_by =#{createdBy} and md.model_type =#{modelType} ")
     List<Model> findModelsCreatedBy(String createdBy, Integer modelType);
 
     //    List<Model> findModelsCreatedBy(String createdBy, Integer modelType, String filter);
 
-    @Select(" select " + queryModel + " from ACT_DE_MODEL where model_key =#{key} and model_type =#{modelType} ")
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md where md.model_key =#{key} and md.model_type =#{modelType} ")
     List<Model> findModelsByKeyAndType(String key, Integer modelType);
 
     List<Model> findModelsByModelType(Integer modelType, String filter);
 
-    @Select(" select " + queryModel + " from ACT_DE_MODEL where model_type =#{modelType} ")
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md where md.model_type =#{modelType} ")
     List<Model> findModelsByModelType(Integer modelType);
 
     Long countByModelTypeAndUser(int modelType, String user);
 
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md, ACT_DE_MODEL_RELATION mr  where md.id=mr.model_id and mr.parent_model_id =#{parentModelId} ")
     List<Model> findModelsByParentModelId(String parentModelId);
 
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md, ACT_DE_MODEL_RELATION mr  where md.id=mr.model_id and mr.parent_model_id =#{parentModelId} and md.model_type =#{modelType} ")
     List<Model> findModelsByParentModelIdAndType(String parentModelId, Integer modelType);
 
     List<Model> findModelsByChildModelId(String modelId);
 
+    @Select(" select md.key from ACT_DE_MODEL md  where md.id=#{modelId} and md.created_by =#{user} ")
     String appDefinitionIdByModelAndUser(String modelId, String user);
 
-    @Select(" select " + queryModel + " from ACT_DE_MODEL where id =#{modelId} ")
+    @Select(" select " + queryModel + " from ACT_DE_MODEL md where md.id =#{modelId} ")
     Model findOne(String modelId);
 
     @Insert("insert into ACT_DE_MODEL(id,name,model_key, description, model_comment , created, created_by, last_updated ,last_updated_by, version, model_editor_json, thumbnail, model_type)  "
