@@ -1,0 +1,249 @@
+2018-09-30 11:59:23,422 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 2664 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 11:59:23,472 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 11:59:23,472 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 13:46:09,857 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 11364 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 13:46:09,858 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 13:46:09,862 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 13:49:47,527 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 4484 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 13:49:47,527 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 13:49:47,527 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 13:50:28,464 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 10500 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 13:50:28,464 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 13:50:28,464 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 13:51:31,525 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 12740 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 13:51:31,525 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 13:51:31,525 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:00:17,585 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 1120 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:00:17,595 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:00:17,595 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:04:13,175 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9604 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:04:13,175 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:04:13,175 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 14:04:29,241 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 14:04:46,911 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 38.019 seconds (JVM running for 39.5)
+2018-09-30 14:06:04,364 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 208 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:06:04,365 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:06:04,366 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:06:19,530 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 14:06:19,530 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 14:06:19,535 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 14:06:19,535 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 14:06:19,536 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 14:06:19,536 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 14:06:39,099 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 37.825 seconds (JVM running for 39.168)
+2018-09-30 14:16:17,646 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 3948 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:16:17,650 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:16:17,653 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:16:36,246 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 14:16:36,247 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 14:16:36,247 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 14:16:36,247 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 14:16:36,247 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 14:16:36,248 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 14:16:56,098 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 42.046 seconds (JVM running for 43.458)
+2018-09-30 14:18:15,802 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9664 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:18:15,802 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:18:15,806 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:18:33,414 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 14:18:33,416 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 14:18:33,416 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 14:18:33,416 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 14:18:33,417 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 14:18:33,417 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 14:18:52,116 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 39.964 seconds (JVM running for 41.456)
+2018-09-30 14:28:24,714 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 3404 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:28:24,714 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:28:24,715 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:32:26,840 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 4048 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:32:26,841 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:32:26,842 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:33:45,505 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 2132 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:33:45,516 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:33:45,521 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:34:50,937 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 6528 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:34:50,938 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:34:50,941 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:35:31,231 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9356 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:35:31,239 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:35:31,243 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:36:10,499 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 12508 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:36:10,502 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:36:10,505 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:36:58,138 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 13508 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:36:58,158 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:36:58,161 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:37:34,140 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 5248 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 14:37:34,145 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 14:37:34,148 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 14:37:56,472 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 14:37:56,475 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 14:37:56,475 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 14:37:56,476 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 14:37:56,477 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 14:37:56,479 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 15:20:56,517 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9684 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 15:20:56,537 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 15:20:56,547 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 15:21:06,710 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 15:21:51,641 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 6816 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 15:21:51,641 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 15:21:51,651 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 15:22:09,628 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 6944 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 15:22:09,628 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 15:22:09,638 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 15:22:19,534 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 15:22:19,534 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 15:22:19,534 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 15:22:19,544 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 15:22:19,544 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 15:22:19,544 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 15:22:34,097 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 26.078 seconds (JVM running for 27.965)
+2018-09-30 15:23:09,961 [http-nio-8080-exec-1] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:09,968 [http-nio-8080-exec-1] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:09-------------------------------------
+Controller: com.bcbpm.controller.LoginController
+Method    : login
+Params    : 
+URI       : /login
+
+2018-09-30 15:23:09,970 [http-nio-8080-exec-1] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:09,972 [http-nio-8080-exec-1] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:10,101 [http-nio-8080-exec-1] INFO (DynamicDataSourceAop.java:41)- target class: class com.bcbpm.service.login.impl.LoginServiceImpltarget package: com.bcbpm.service.login.impl，method.getName(): login
+2018-09-30 15:23:10,105 [http-nio-8080-exec-1] INFO (DynamicDataSourceAop.java:78)- 当前读取的DB是：back
+2018-09-30 15:23:10,224 [http-nio-8080-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select userId, userName from t_user where userName =? or email =? or mobile =? 
+2018-09-30 15:23:10,239 [http-nio-8080-exec-1] DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, null, null
+2018-09-30 15:23:10,351 [http-nio-8080-exec-1] DEBUG (BaseJdbcLogger.java:159)- <==      Total: 0
+2018-09-30 15:23:10,364 [http-nio-8080-exec-1] ERROR (GlobalControllerAccessHandler.java:68)- 系统未知异常：null
+2018-09-30 15:23:23,875 [http-nio-8080-exec-2] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:23,875 [http-nio-8080-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:23,876 [http-nio-8080-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:23,896 [http-nio-8080-exec-2] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:23,896 [http-nio-8080-exec-2] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:23-------------------------------------
+Controller: org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+Method    : error
+Params    : 
+URI       : /error
+
+2018-09-30 15:23:23,896 [http-nio-8080-exec-2] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:23,898 [http-nio-8080-exec-2] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:23,921 [http-nio-8080-exec-2] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-30 15:23:24,035 [http-nio-8080-exec-2] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:23:24-------------------------------------
+costTime  : 139ms
+-------------------------------------------------------------------------------
+2018-09-30 15:23:24,091 [http-nio-8080-exec-2] INFO (SessionDeal.java:112)- session ID: 
+2018-09-30 15:23:24,096 [http-nio-8080-exec-2] ERROR (GlobalControllerAccessHandler.java:68)- 系统未知异常：Cannot create a session after the response has been committed
+2018-09-30 15:23:24,237 [http-nio-8080-exec-3] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:24,238 [http-nio-8080-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:24,238 [http-nio-8080-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:24,248 [http-nio-8080-exec-3] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:24,248 [http-nio-8080-exec-3] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:24-------------------------------------
+Controller: org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+Method    : errorHtml
+Params    : 
+URI       : /error
+
+2018-09-30 15:23:24,248 [http-nio-8080-exec-3] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:24,248 [http-nio-8080-exec-3] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:24,282 [http-nio-8080-exec-3] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:23:24-------------------------------------
+costTime  : 34ms
+-------------------------------------------------------------------------------
+2018-09-30 15:23:24,282 [http-nio-8080-exec-3] INFO (SessionDeal.java:112)- session ID: 
+2018-09-30 15:23:24,296 [http-nio-8080-exec-3] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 57ECE2D4C256DD3772949BE45679B114-FR_SID_对应的slot: 16029
+2018-09-30 15:23:24,333 [http-nio-8080-exec-3] INFO (AccessRecordInterceptor.java:131)- The method errorHtml未登录执行
+2018-09-30 15:23:32,555 [http-nio-8080-exec-4] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:32,556 [http-nio-8080-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:32,558 [http-nio-8080-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:32,567 [http-nio-8080-exec-4] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:32,567 [http-nio-8080-exec-4] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:32-------------------------------------
+Controller: org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+Method    : error
+Params    : 
+URI       : /error
+
+2018-09-30 15:23:32,568 [http-nio-8080-exec-4] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:32,568 [http-nio-8080-exec-4] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:32,570 [http-nio-8080-exec-4] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-30 15:23:32,571 [http-nio-8080-exec-4] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:23:32-------------------------------------
+costTime  : 4ms
+-------------------------------------------------------------------------------
+2018-09-30 15:23:32,572 [http-nio-8080-exec-4] INFO (SessionDeal.java:112)- session ID: 57ECE2D4C256DD3772949BE45679B114
+2018-09-30 15:23:32,574 [http-nio-8080-exec-4] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 57ECE2D4C256DD3772949BE45679B114-FR_SID_对应的slot: 16029
+2018-09-30 15:23:32,575 [http-nio-8080-exec-4] INFO (AccessRecordInterceptor.java:131)- The method error未登录执行
+2018-09-30 15:23:32,692 [http-nio-8080-exec-5] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:32,693 [http-nio-8080-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:32,693 [http-nio-8080-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:32,699 [http-nio-8080-exec-5] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:32,699 [http-nio-8080-exec-5] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:32-------------------------------------
+Controller: org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController
+Method    : errorHtml
+Params    : 
+URI       : /error
+
+2018-09-30 15:23:32,699 [http-nio-8080-exec-5] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:32,700 [http-nio-8080-exec-5] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:23:32,704 [http-nio-8080-exec-5] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:23:32-------------------------------------
+costTime  : 5ms
+-------------------------------------------------------------------------------
+2018-09-30 15:23:32,704 [http-nio-8080-exec-5] INFO (SessionDeal.java:112)- session ID: 57ECE2D4C256DD3772949BE45679B114
+2018-09-30 15:23:32,706 [http-nio-8080-exec-5] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 57ECE2D4C256DD3772949BE45679B114-FR_SID_对应的slot: 16029
+2018-09-30 15:23:32,707 [http-nio-8080-exec-5] INFO (AccessRecordInterceptor.java:131)- The method errorHtml未登录执行
+2018-09-30 15:23:37,772 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:23:37,773 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:23:37-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-30 15:23:37,773 [http-nio-8080-exec-10] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:23:37,774 [http-nio-8080-exec-10] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:24:24,516 [http-nio-8080-exec-10] INFO (ActivitiController.java:64)- 当前流程里的任务节点名称：Expense Request
+2018-09-30 15:24:26,320 [http-nio-8080-exec-10] INFO (ActivitiController.java:73)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-30 15:24:26,452 [http-nio-8080-exec-10] INFO (ActivitiController.java:80)- 流程结束后，查找任务：null
+2018-09-30 15:24:26,456 [http-nio-8080-exec-10] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-30 15:24:26,459 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:24:26-------------------------------------
+costTime  : 48686ms
+-------------------------------------------------------------------------------
+2018-09-30 15:24:26,460 [http-nio-8080-exec-10] INFO (SessionDeal.java:112)- session ID: 57ECE2D4C256DD3772949BE45679B114
+2018-09-30 15:24:26,460 [http-nio-8080-exec-10] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 57ECE2D4C256DD3772949BE45679B114-FR_SID_对应的slot: 16029
+2018-09-30 15:24:26,462 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:131)- The method doTask未登录执行
+2018-09-30 15:33:09,534 [main] INFO (StartupInfoLogger.java:50)- Starting BcbpmWebApplication on belikov with PID 9872 (F:\xhnc\bcbpm-boot\bcbpm-web\target\classes started by ja in F:\xhnc\bcbpm-boot\bcbpm-web)
+2018-09-30 15:33:09,536 [main] DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-30 15:33:09,543 [main] INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-30 15:33:20,516 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6379
+2018-09-30 15:33:20,519 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6380
+2018-09-30 15:33:20,520 [main] INFO (JedisConfig.java:43)- 192.168.0.104: 6379
+2018-09-30 15:33:20,522 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6380
+2018-09-30 15:33:20,525 [main] INFO (JedisConfig.java:43)- 192.168.0.103: 6379
+2018-09-30 15:33:20,526 [main] INFO (JedisConfig.java:43)- 192.168.0.105: 6380
+2018-09-30 15:33:35,572 [main] INFO (StartupInfoLogger.java:59)- Started BcbpmWebApplication in 27.795 seconds (JVM running for 29.375)
+2018-09-30 15:33:53,555 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:33:53,563 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:61)- -----------------------2018-09-30 15:33:53-------------------------------------
+Controller: com.bcbpm.controller.activiti.ActivitiController
+Method    : doTask
+Params    : 
+URI       : /act/doTask
+
+2018-09-30 15:33:53,565 [http-nio-8080-exec-10] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:33:53,565 [http-nio-8080-exec-10] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器
+2018-09-30 15:33:55,188 [http-nio-8080-exec-10] INFO (ActivitiController.java:64)- 当前流程里的任务节点名称：Expense Request
+2018-09-30 15:33:55,249 [http-nio-8080-exec-10] INFO (ActivitiController.java:73)- 第二个任务完成前，当前任务名称：Handle Request
+2018-09-30 15:33:55,339 [http-nio-8080-exec-10] INFO (ActivitiController.java:80)- 流程结束后，查找任务：null
+2018-09-30 15:33:55,361 [http-nio-8080-exec-10] INFO (GlobalControllerAccessHandler.java:51)- 系统正常返回
+2018-09-30 15:33:55,468 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:99)- -----------------------2018-09-30 15:33:55-------------------------------------
+costTime  : 1911ms
+-------------------------------------------------------------------------------
+2018-09-30 15:33:55,474 [http-nio-8080-exec-10] INFO (SessionDeal.java:112)- session ID: 57ECE2D4C256DD3772949BE45679B114
+2018-09-30 15:33:55,477 [http-nio-8080-exec-10] INFO (SessionDeal.java:120)- getNowUserFront-----clusterKey: 57ECE2D4C256DD3772949BE45679B114-FR_SID_对应的slot: 16029
+2018-09-30 15:33:55,487 [http-nio-8080-exec-10] INFO (AccessRecordInterceptor.java:131)- The method doTask未登录执行
+2018-09-30 15:34:04,985 [http-nio-8080-exec-9] INFO (AccessRecordInterceptor.java:47)- 进入url请求信息记录拦截器
+2018-09-30 15:34:04,985 [http-nio-8080-exec-9] INFO (SessionInterceptor.java:29)- 进入会话校验拦截器
+2018-09-30 15:34:04,985 [http-nio-8080-exec-9] INFO (UrlAuthorityInterceptor.java:42)- 进入url请求权限拦截器

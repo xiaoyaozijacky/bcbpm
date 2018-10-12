@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.bcbpm.framework.data.access.BusinessException;
@@ -26,7 +27,7 @@ public class SampleController{
     @Value("${student.state}")
     private String state;
 
-    @RequestMapping("/now")
+    @RequestMapping(value = "/now", method = RequestMethod.GET, produces = "application/json")
     public String getNow(){
         String now = TimeUtil.getDateTime();
         logger.info("正常访问controller的now方法，当前时间为：" + now);

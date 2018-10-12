@@ -16,14 +16,6 @@
     
 
 	<dependencies>
-			<!--排除冲突-->
-			 <exclusions>
-                <exclusion>
-                   <groupId>org.slf4j</groupId>
-				    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-            
 		<dependency>
 	        <groupId>com.bcbpm</groupId>
 	        <artifactId>bcbpm-framework</artifactId>
@@ -51,14 +43,14 @@
 	          <scope>compile</scope>
 	      </dependency>
 	      
-	      <dependency>
+	     <dependency>
 	          <groupId>com.bcbpm</groupId>
 	          <artifactId>bcbpm-activiti</artifactId>
 	          <version>1.0-SNAPSHOT</version>
 	          <scope>compile</scope>
-	      </dependency>
+	      </dependency> 
 	      
-			<dependency>
+		<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
 				<scope>test</scope>

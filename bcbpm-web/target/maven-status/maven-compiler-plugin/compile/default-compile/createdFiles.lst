@@ -1,0 +1,7 @@
+com\bcbpm\BcbpmWebApplication.class
+com\bcbpm\ServletInitializer.class
+com\bcbpm\controller\activiti\ActivitiController.class
+com\bcbpm\vo\Version.class
+com\bcbpm\controller\SampleController.class
+com\bcbpm\controller\user\UserController.class
+com\bcbpm\controller\LoginController.class

@@ -23,7 +23,16 @@
         <dependent-module archiveName="bcbpm-activiti-1.0-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bcbpm-activiti/bcbpm-activiti">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="content-storage-api-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Activiti Content Storage - API/Activiti Content Storage - API">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="content-storage-fs-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Activiti Content Storage - File System Implementation/Activiti Content Storage - File System Implementation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="editor-image-generator-6.0.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/Activiti editor - Image generator/Activiti editor - Image generator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="java-output-path" value="/bcbpm-web/target/classes"/>
-        <property name="context-root" value="bcbpm-web"/>
+        <property name="context-root" value="/bcbpm"/>
     </wb-module>
 </project-modules>

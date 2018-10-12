@@ -39,10 +39,10 @@ public class UrlAuthorityInterceptor extends HandlerInterceptorAdapter{
      */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception{
-        logger.info("进入url请求权限拦截器");
         //        boolean flag = false;
         // TODO : 待缓存设置完成后进行配置
-        //        String url = request.getRequestURI().toString();
+        String url = request.getRequestURI().toString();
+        logger.info("进入url请求权限拦截器,当前url: " + url);
         //        Map user = null;
         //        String userId = null;
         //        String userName = null;

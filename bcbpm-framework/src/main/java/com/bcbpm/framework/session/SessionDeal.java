@@ -7,6 +7,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
 import com.bcbpm.framework.data.redis.RedisClient;
 import com.bcbpm.framework.data.redis.RedisKey;
@@ -100,6 +102,16 @@ public class SessionDeal{
         logger.info("getNowUser-----clusterKey: " + clusterKey + "对应的slot: " + JedisClusterCRC16.getSlot(clusterKey));
         ClusterSessionObject cso = (ClusterSessionObject) redisClient.getClient().getObject(clusterKey);
         return cso != null ? cso.getAttribute("USEROBJ") : null;
+    }
+
+    /***
+     * 当前前台登陆的用户  map
+     * @param req
+     * @return
+     */
+    public Object getNowUserFront(){
+        HttpServletRequest req = ((ServletRequestAttributes) RequestContextHolder.getRequestAttributes()).getRequest();
+        return getNowUserFront(req);
     }
 
     /***

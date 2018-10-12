@@ -42,18 +42,21 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
     @Override
     public Object beforeBodyWrite(Object body, MethodParameter returnType, MediaType selectedContentType, Class<? extends HttpMessageConverter<?>> selectedConverterType, ServerHttpRequest request,
             ServerHttpResponse response){
+        String requestPath = request.getURI().getPath();// 对特定的请求不进行过滤
+        if(requestPath.startsWith("/app") || requestPath.startsWith("/bcbpm/app")){
+            return body;
+        }
         if(body instanceof BaseResponse){//已经设置过返回类型的
             return body;
         }else if(body instanceof IBusinessResult){
             IBusinessResult result = (IBusinessResult) body;
             return new BaseResponse(result.getCode(), result.getMsg());
         }
-        logger.info("系统正常返回");
-        //        String requestPath = request.getURI().getPath();// 对特定的请求不进行过滤
-        //        if(!requestPath.startsWith("/credit")){
-        //            return body;
-        //        }
+
+        //        logger.info("系统正常返回");
         return new BaseResponse(body);
+        //        return JSON.toJSON(new BaseResponse(body));
+        //        return JSON.toJSONString(new BaseResponse(body));
     }
 
     //声明要捕获的异常
