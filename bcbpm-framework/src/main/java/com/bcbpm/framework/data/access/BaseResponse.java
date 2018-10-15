@@ -11,44 +11,43 @@ package com.bcbpm.framework.data.access;
  * @description:
  */
 public class BaseResponse{
-    private Integer code = 0;//编码
-    private String msg = "操作成功";//信息
-    private Object body = null;//内容
+    private Integer resultCode = 0;//编码
+    private String resultMsg = "操作成功";//信息
+    private Object data = null;//内容
 
     public BaseResponse(){
     }
 
     public BaseResponse(Object body){
-        this.body = body;
+        this.data = body;
     }
 
     public BaseResponse(Integer code, String msg){
-        this.code = code;
-        this.msg = msg;
+        this.resultCode = code;
+        this.resultMsg = msg;
     }
 
-    public Integer getCode(){
-        return code;
+    public Integer getResultCode(){
+        return resultCode;
     }
 
-    public void setCode(Integer code){
-        this.code = code;
+    public void setResultCode(Integer resultCode){
+        this.resultCode = resultCode;
     }
 
-    public String getMsg(){
-        return msg;
+    public String getResultMsg(){
+        return resultMsg;
     }
 
-    public void setMsg(String msg){
-        this.msg = msg;
+    public void setResultMsg(String resultMsg){
+        this.resultMsg = resultMsg;
     }
 
-    public Object getBody(){
-        return body;
+    public Object getData(){
+        return data;
     }
 
-    public void setBody(Object body){
-        this.body = body;
+    public void setData(Object data){
+        this.data = data;
     }
-
 }

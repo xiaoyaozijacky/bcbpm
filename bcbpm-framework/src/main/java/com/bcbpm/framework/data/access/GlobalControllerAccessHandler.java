@@ -50,7 +50,7 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
             return body;
         }else if(body instanceof IBusinessResult){
             IBusinessResult result = (IBusinessResult) body;
-            return new BaseResponse(result.getCode(), result.getMsg());
+            return new BaseResponse(result.getResultCode(), result.getResultMsg());
         }
 
         //        logger.info("系统正常返回");
@@ -69,7 +69,7 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
             return new BaseResponse(businessException.getCode(), businessException.getMessage());
         }else{
             logger.error("系统未知异常：" + e.getMessage());
-            return new BaseResponse(ResultEnum.UNKONW_ERROR.getCode(), ResultEnum.UNKONW_ERROR.getMsg());
+            return new BaseResponse(ResultEnum.UNKONW_ERROR.getResultCode(), ResultEnum.UNKONW_ERROR.getResultMsg());
         }
     }
 

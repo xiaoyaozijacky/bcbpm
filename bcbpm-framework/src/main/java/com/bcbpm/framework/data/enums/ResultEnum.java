@@ -18,26 +18,26 @@ public enum ResultEnum implements IBusinessResult {
     UNKONW_ERROR ( -1 , "未知错误" ) , SUCCESS ( 0 , "成功" ) , ERROR ( 1 , "失败" ) , LOGIN_ERROR1 ( 10001 , "用户[*]不存在" ) , LOGIN_ERROR2 ( 10002 , "登录密码不正确" ) , LOGIN_ERROR3 ( 10003 ,
             "当前用户:[*]已锁定" ) , LOGIN_ERROR4 ( 10004 , "产品使用期限已到，请联系客服！" );
 
-    private Integer code;
-    private String msg;
+    private Integer resultCode;
+    private String resultMsg;
 
     // 
     ResultEnum(Integer code, String msg){
-        this.code = code;
-        this.msg = msg;
+        this.resultCode = code;
+        this.resultMsg = msg;
     }
 
-    public Integer getCode(){
-        return code;
+    public Integer getResultCode(){
+        return resultCode;
     }
 
-    public String getMsg(){
-        return msg;
+    public String getResultMsg(){
+        return resultMsg;
     }
 
-    public ResultEnum setMsg(String... extInfo){
+    public ResultEnum setResultMsg(String... extInfo){
         for(String arg : extInfo){
-            this.msg = msg.replace("*", arg);
+            this.resultMsg = resultMsg.replace("*", arg);
         }
         return this;
     }

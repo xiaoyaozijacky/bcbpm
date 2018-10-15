@@ -28,26 +28,26 @@ public class LoginServiceImpl implements ILoginService{
         // 1.校验当前用户是否存在
         user = loginDao.checkUserIfexist(input);
         if(user == null){
-            logger.info(ResultEnum.LOGIN_ERROR1.setMsg(input).getMsg());
-            throw new BusinessException(ResultEnum.LOGIN_ERROR1.setMsg(input));
+            logger.info(ResultEnum.LOGIN_ERROR1.setResultMsg(input).getResultMsg());
+            throw new BusinessException(ResultEnum.LOGIN_ERROR1.setResultMsg(input));
         }else{
             // 2.校验密码是否正确
             user = loginDao.getUserInfo(input, pwd);
             if(user == null){
-                logger.info(ResultEnum.LOGIN_ERROR2.getMsg());
+                logger.info(ResultEnum.LOGIN_ERROR2.getResultMsg());
                 throw new BusinessException(ResultEnum.LOGIN_ERROR2);
             }else{
                 // 3.校验用户是否被锁定
                 if(user.getUserState() == 1){
-                    logger.info(ResultEnum.LOGIN_ERROR3.setMsg(input).getMsg());
-                    throw new BusinessException(ResultEnum.LOGIN_ERROR3.setMsg(input));
+                    logger.info(ResultEnum.LOGIN_ERROR3.setResultMsg(input).getResultMsg());
+                    throw new BusinessException(ResultEnum.LOGIN_ERROR3.setResultMsg(input));
                 }else{
                     // 4.校验用户是否在产品使用有效期内
                     Date expirationDate = (Date) user.getExpirationDate();//企业号到期日期
                     Date now = new Date();
                     boolean flag = expirationDate.before(now);
                     if(expirationDate == null || flag){//早于今天说明到期了
-                        logger.info(ResultEnum.LOGIN_ERROR4.getMsg());
+                        logger.info(ResultEnum.LOGIN_ERROR4.getResultMsg());
                         throw new BusinessException(ResultEnum.LOGIN_ERROR4);
                     }else{
                         logger.info("登录成功");

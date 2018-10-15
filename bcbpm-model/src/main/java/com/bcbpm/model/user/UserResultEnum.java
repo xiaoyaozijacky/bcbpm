@@ -24,15 +24,15 @@ public enum UserResultEnum implements IBusinessResult {
         this.msg = msg;
     }
 
-    public Integer getCode(){
+    public Integer getResultCode(){
         return code;
     }
 
-    public String getMsg(){
+    public String getResultMsg(){
         return msg;
     }
 
-    public UserResultEnum setMsg(String... extInfo){
+    public UserResultEnum setResultMsg(String... extInfo){
         for(String arg : extInfo){
             this.msg = msg.replace("*", arg);
         }

@@ -47,7 +47,7 @@ public class SampleController{
         try{
             i = 5 / 0;
         }catch(Exception e){
-            throw new BusinessException(ResultEnum.LOGIN_ERROR2.setMsg("张三"));
+            throw new BusinessException(ResultEnum.LOGIN_ERROR2.setResultMsg("张三"));
         }
         return i;
     }

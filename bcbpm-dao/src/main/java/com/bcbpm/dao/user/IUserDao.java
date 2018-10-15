@@ -7,6 +7,14 @@ import org.springframework.stereotype.Repository;
 
 import com.bcbpm.model.user.User;
 
+/**
+ * <p>Title: 自定义表单持久层</p>
+* <p>Company: bcbpm</p> 
+ * @author jacky
+ * @date 2018年10月15日 下午2:22:36
+ * @version :
+ * @description: 自定义表单持久层处理
+ */
 @Repository
 public interface IUserDao{
     /**

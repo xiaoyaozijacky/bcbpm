@@ -11,9 +11,9 @@ package com.bcbpm.model;
  * @description:
  */
 public interface IBusinessResult{
-    public Integer getCode();
+    public Integer getResultCode();
 
-    public String getMsg();
+    public String getResultMsg();
 
-    public IBusinessResult setMsg(String... extInfo);
+    public IBusinessResult setResultMsg(String... extInfo);
 }

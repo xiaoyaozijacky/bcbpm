@@ -20,7 +20,7 @@ public class UserServiceImpl implements IUserService{
     Logger logger = LoggerFactory.getLogger(getClass());
 
     @Autowired
-    private IUserDao iUserDao = null;
+    private IUserDao userDao = null;
 
     @Override
     //    @Transactional(isolation = Isolation.READ_COMMITTED, timeout = 1)
@@ -28,9 +28,9 @@ public class UserServiceImpl implements IUserService{
         Integer rt = 0;
         try{
             if(user.getIsEnterprise() == null){
-                rt = iUserDao.insertUser(user);
+                rt = userDao.insertUser(user);
             }else{
-                rt = iUserDao.insertUser(user);
+                rt = userDao.insertUser(user);
                 rt = 5 / 0;
             }
         }catch(Exception e){
@@ -46,11 +46,11 @@ public class UserServiceImpl implements IUserService{
         }else{
             DatabaseContextHolder.setDatabaseType(DatabaseType.main);
         }
-        return iUserDao.getUser(id);
+        return userDao.getUser(id);
     }
 
     @Override
     public List<User> findUsers(String userName, String note){
-        return iUserDao.findUsers(userName, note);
+        return userDao.findUsers(userName, note);
     }
 }

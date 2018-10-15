@@ -32,8 +32,8 @@ public class BusinessException extends RuntimeException{
     }
 
     public BusinessException(IBusinessResult resultEnum){
-        super(resultEnum.getMsg());
-        this.code = resultEnum.getCode();
+        super(resultEnum.getResultMsg());
+        this.code = resultEnum.getResultCode();
     }
 
     public Integer getCode(){
