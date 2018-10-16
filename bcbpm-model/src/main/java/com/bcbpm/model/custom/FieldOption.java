@@ -1,8 +1,11 @@
 package com.bcbpm.model.custom;
 
 import java.io.Serializable;
+import java.util.Date;
 
-/**<p>Title: 字段属性</p>
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+/**<p>Title: 字段选项</p>
 * <p>Company: bcbpm</p> 
  * @author jacky
  * @date 2018年10月15日 下午2:27:58
@@ -13,13 +16,18 @@ public class FieldOption implements Serializable{
 
     private static final long serialVersionUID = 1L;
     private String id;//主键
-    private PropertyConfig config;//属性定义
+    private OptionConfig config;//选项定义
     private String defaultSetting;//字段默认值设置
     private String description;//属性描述
     private boolean required;//是否必填 true 1, false 0
     private boolean unique;//是否唯一 true 1, false 0
 
+    @JsonIgnore
     private String formFieldId;//所属字段id
+    @JsonIgnore
+    private Date created;//创建时间
+    @JsonIgnore
+    private String createdBy;//创建人
 
     public String getId(){
         return id;
@@ -29,11 +37,11 @@ public class FieldOption implements Serializable{
         this.id = id;
     }
 
-    public PropertyConfig getConfig(){
+    public OptionConfig getConfig(){
         return config;
     }
 
-    public void setConfig(PropertyConfig config){
+    public void setConfig(OptionConfig config){
         this.config = config;
     }
 
@@ -77,4 +85,19 @@ public class FieldOption implements Serializable{
         this.formFieldId = formFieldId;
     }
 
+    public Date getCreated(){
+        return created;
+    }
+
+    public void setCreated(Date created){
+        this.created = created;
+    }
+
+    public String getCreatedBy(){
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy){
+        this.createdBy = createdBy;
+    }
 }

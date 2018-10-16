@@ -3,6 +3,7 @@ package com.bcbpm.service.component.custom;
 import java.util.List;
 
 import com.bcbpm.model.custom.CustomForm;
+import com.bcbpm.model.user.User;
 
 /**
  * <p>Title: ICustomService</p>
@@ -23,22 +24,26 @@ public interface ICustomService{
     CustomForm getFormConfig(String id);
 
     /**
-     * @Title: 新增自定义表单 
+     * @Title: 新增/保存 自定义表单  
      * @author jacky
-     * @date 2018年10月15日 下午4:28:08
+     * @date 2018年10月16日 上午10:59:21
      * @param form
+     * @param user
      * @return
      */
-    int insertCustomForm(CustomForm form);
+    int saveCustomForm(CustomForm form, User user);
 
     /**
-     * @Title: 根据条件查询自定义表单数据 
+     * @Title: 根据条件查询自定义表单数据  
      * @author jacky
-     * @date 2018年10月15日 下午4:31:00
+     * @date 2018年10月16日 上午10:59:32
      * @param formName
      * @param description
      * @param formType
      * @param tenantId
+     * @param userId
+     * @param currentPage
+     * @param pageSize
      * @return
      */
     List<CustomForm> findCustomForms(String formName, String description, String formType, String tenantId, String userId, Integer currentPage, Integer pageSize);

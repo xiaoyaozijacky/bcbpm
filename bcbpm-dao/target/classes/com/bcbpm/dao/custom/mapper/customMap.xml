@@ -47,12 +47,12 @@
      <!-- 查询属性配置-->
 	 	<select id="getPropertyConfig"  parameterType="string"  resultMap="configOptionMap">
 	         select * 
-	         from t_custom_property_config 
+	         from t_custom_option_config 
 	         where fieldOptionId = #{id}
 	   </select>  
 	   
 	<!-- 定义结果集 详细配置内容 -->
-     <resultMap type="com.bcbpm.model.custom.PropertyConfig" id="configOptionMap">
+     <resultMap type="com.bcbpm.model.custom.OptionConfig" id="configOptionMap">
           <result property="id" column="id" />
           <collection property="options" column="id" javaType="list" select="getConfigOption"/>
      </resultMap>
@@ -61,7 +61,7 @@
 	 	<select id="getConfigOption"  parameterType="string"  resultType="com.bcbpm.model.custom.ConfigOption">
 	         select * 
 	         from t_custom_config_option 
-	         where propertyConfigId = #{id}
+	         where optionConfigId = #{id}
 	   </select>  
 	   
 	   

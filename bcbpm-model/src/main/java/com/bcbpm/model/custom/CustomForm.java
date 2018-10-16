@@ -1,7 +1,11 @@
 package com.bcbpm.model.custom;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
+
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**<p>Title: 自定义表单</p>
 * <p>Company: bcbpm</p> 
@@ -16,10 +20,13 @@ public class CustomForm implements Serializable{
     private String id;//自定义表单主键
     private String formName;//自定义表单名称
     private List<FormField> fieldsList;//自定义表单字段组合
-    //    private Date created;//表单创建时间
-    //    private String createdBy;//表单创建人
-    //    protected Date lastUpdated;//最新修改时间
-    //    private String lastUpdatedBy;//最新修改人
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
+    private Date created;//表单创建时间
+    private String createdBy;//表单创建人
+    @JsonIgnore
+    protected Date lastUpdated;//最新修改时间
+    @JsonIgnore
+    private String lastUpdatedBy;//最新修改人
     private String description;//表单描述
 
     private String formType;//表单类型 (根据业务进行分组，不同表单归属不同的业务分组下)
@@ -49,37 +56,37 @@ public class CustomForm implements Serializable{
         this.fieldsList = fieldsList;
     }
 
-    //    public Date getCreated(){
-    //        return created;
-    //    }
-    //
-    //    public void setCreated(Date created){
-    //        this.created = created;
-    //    }
-    //
-    //    public String getCreatedBy(){
-    //        return createdBy;
-    //    }
-    //
-    //    public void setCreatedBy(String createdBy){
-    //        this.createdBy = createdBy;
-    //    }
-    //
-    //    public Date getLastUpdated(){
-    //        return lastUpdated;
-    //    }
-    //
-    //    public void setLastUpdated(Date lastUpdated){
-    //        this.lastUpdated = lastUpdated;
-    //    }
-    //
-    //    public String getLastUpdatedBy(){
-    //        return lastUpdatedBy;
-    //    }
-    //
-    //    public void setLastUpdatedBy(String lastUpdatedBy){
-    //        this.lastUpdatedBy = lastUpdatedBy;
-    //    }
+    public Date getCreated(){
+        return created;
+    }
+
+    public void setCreated(Date created){
+        this.created = created;
+    }
+
+    public String getCreatedBy(){
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy){
+        this.createdBy = createdBy;
+    }
+
+    public Date getLastUpdated(){
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(Date lastUpdated){
+        this.lastUpdated = lastUpdated;
+    }
+
+    public String getLastUpdatedBy(){
+        return lastUpdatedBy;
+    }
+
+    public void setLastUpdatedBy(String lastUpdatedBy){
+        this.lastUpdatedBy = lastUpdatedBy;
+    }
 
     public String getDescription(){
         return description;

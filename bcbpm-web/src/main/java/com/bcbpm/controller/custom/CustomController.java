@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.bcbpm.framework.session.SessionDeal;
 import com.bcbpm.model.common.PageModel;
 import com.bcbpm.model.custom.CustomForm;
+import com.bcbpm.model.user.User;
 import com.bcbpm.service.component.custom.ICustomService;
 
 /**
@@ -68,26 +70,14 @@ public class CustomController{
         return pm;
     }
 
-    // 测试插入用户
-    @RequestMapping("/insertUser")
-    public Map<String, Object> insertUser(String userName, String note, Integer flg){
-        //        User user = new User();
-        //        user.setUserName(userName);
-        //        // 结果会回填主键，返回插入条数
-        //        Random random = new Random();
-        //        int rd = random.nextInt(10);
-        //        if(rd % 2 == 0){
-        //            logger.info("rd等于：" + rd + "，目前使用从库");
-        //            DatabaseContextHolder.setDatabaseType(DatabaseType.back);
-        //        }else{
-        //            logger.info("rd:等于：" + rd + "，目前使用主库");
-        //            DatabaseContextHolder.setDatabaseType(DatabaseType.main);
-        //        }
-        //        int update = customService.insertUser(user);
-        Map<String, Object> result = new HashMap<>();
-        //        result.put("success", update == 1);
-        //        result.put("user", user);
-        return result;
+    // 保存表单
+    @RequestMapping("/saveCustomForm")
+    public Map<String, Object> saveCustomForm(@RequestBody CustomForm form){
+        Map<String, Object> rtMap = new HashMap<String, Object>();
+        User user = (User) sessionDeal.getNowUserFront(request);
+        customService.saveCustomForm(form, user);
+        rtMap.put("formId", form.getId());
+        return rtMap;
     }
 
 }

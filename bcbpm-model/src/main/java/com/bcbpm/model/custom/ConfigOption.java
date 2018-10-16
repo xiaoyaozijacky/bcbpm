@@ -1,6 +1,9 @@
 package com.bcbpm.model.custom;
 
 import java.io.Serializable;
+import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**<p>Title: 字段属性</p>
 * <p>Company: bcbpm</p> 
@@ -17,7 +20,12 @@ public class ConfigOption implements Serializable{
     private String value;//属性值
     private boolean def;// 是否默认项  true 1, false 0
 
-    private String propertyConfigId;//所属字段属性id
+    @JsonIgnore
+    private String optionConfigId;//所属选项配置id
+    @JsonIgnore
+    private Date created;//创建时间
+    @JsonIgnore
+    private String createdBy;//创建人
 
     public String getId(){
         return id;
@@ -51,12 +59,27 @@ public class ConfigOption implements Serializable{
         this.def = def;
     }
 
-    public String getPropertyConfigId(){
-        return propertyConfigId;
+    public String getOptionConfigId(){
+        return optionConfigId;
     }
 
-    public void setPropertyConfigId(String propertyConfigId){
-        this.propertyConfigId = propertyConfigId;
+    public void setOptionConfigId(String optionConfigId){
+        this.optionConfigId = optionConfigId;
     }
 
+    public Date getCreated(){
+        return created;
+    }
+
+    public void setCreated(Date created){
+        this.created = created;
+    }
+
+    public String getCreatedBy(){
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy){
+        this.createdBy = createdBy;
+    }
 }

@@ -1,6 +1,9 @@
 package com.bcbpm.model.custom;
 
 import java.io.Serializable;
+import java.util.Date;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**<p>Title: 表单字段</p>
 * <p>Company: bcbpm</p> 
@@ -19,7 +22,12 @@ public class FormField implements Serializable{
     private String formField;// 表单字段标识 由type+Id组合而成
     private FieldOption options;//字段属性
 
+    @JsonIgnore
     private String formId;//所属表单id
+    @JsonIgnore
+    private Date created;//创建时间
+    @JsonIgnore
+    private String createdBy;//创建人
 
     public String getId(){
         return id;
@@ -75,5 +83,21 @@ public class FormField implements Serializable{
 
     public void setFormId(String formId){
         this.formId = formId;
+    }
+
+    public Date getCreated(){
+        return created;
+    }
+
+    public void setCreated(Date created){
+        this.created = created;
+    }
+
+    public String getCreatedBy(){
+        return createdBy;
+    }
+
+    public void setCreatedBy(String createdBy){
+        this.createdBy = createdBy;
     }
 }

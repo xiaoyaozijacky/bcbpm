@@ -2,10 +2,17 @@ package com.bcbpm.dao.custom;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.UpdateProvider;
 import org.springframework.stereotype.Repository;
 
+import com.bcbpm.dao.custom.mapper.CustomDynaSqlProvider;
+import com.bcbpm.model.custom.ConfigOption;
 import com.bcbpm.model.custom.CustomForm;
+import com.bcbpm.model.custom.FieldOption;
+import com.bcbpm.model.custom.FormField;
+import com.bcbpm.model.custom.OptionConfig;
 
 /**
  * <p>Title: 自定义表单持久层</p>
@@ -34,7 +41,28 @@ public interface ICustomDao{
      * @param form
      * @return
      */
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "insertCustomForm")
     int insertCustomForm(CustomForm form);
+
+    // 新增表单字段
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "insertFormField")
+    int insertFormField(FormField formField);
+
+    // 新增字段选项
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "insertFieldOption")
+    int insertFieldOption(FieldOption fieldOption);
+
+    // 新增选项配置
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "insertOptionConfig")
+    int insertOptionConfig(OptionConfig optionConfig);
+
+    // 新增配置明细
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "insertConfigOption")
+    int insertConfigOption(ConfigOption configOption);
+
+    // 动态更新自定义表单表
+    @UpdateProvider(type = CustomDynaSqlProvider.class, method = "updateCustomForm")
+    void updateCustomForm(CustomForm customForm);
 
     /**
      * @Title: 根据条件查询自定义表单数据 
