@@ -122,4 +122,67 @@ public class CustomDynaSqlProvider{
             }
         }.toString();
     }
+
+    public String updateFormField(FormField formField){
+        return new SQL(){
+            {
+                UPDATE("t_custom_form_field ");
+                if(formField.getType() != null){
+                    SET("type = #{type}");
+                }
+                if(formField.getName() != null){
+                    SET("name = #{name}");
+                }
+                if(formField.getIcon() != null){
+                    SET("icon = #{icon}");
+                }
+                WHERE(" id = #{id} ");
+            }
+        }.toString();
+    }
+
+    public String updateFieldOption(FieldOption fieldOption){
+        return new SQL(){
+            {
+                UPDATE("t_custom_field_option ");
+                if(fieldOption.getDefaultSetting() != null){
+                    SET("defaultSetting = #{defaultSetting}");
+                }
+                if(fieldOption.getDescription() != null){
+                    SET("description = #{description}");
+                }
+                SET("required = #{required}");
+                SET("`unique` = #{unique}");
+                WHERE(" id = #{id} ");
+            }
+        }.toString();
+    }
+
+    public String updateOptionConfig(OptionConfig optionConfig){
+        return new SQL(){
+            {
+                UPDATE("t_custom_option_config ");
+                if(optionConfig.getType() != null){
+                    SET("type = #{type}");
+                }
+                WHERE(" id = #{id} ");
+            }
+        }.toString();
+    }
+
+    public String updateConfigOption(ConfigOption configOption){
+        return new SQL(){
+            {
+                UPDATE("t_custom_config_option ");
+                if(configOption.getTitle() != null){
+                    SET("title = #{title}");
+                }
+                if(configOption.getValue() != null){
+                    SET("value = #{value}");
+                }
+                SET("def = #{def}");
+                WHERE(" id = #{id} ");
+            }
+        }.toString();
+    }
 }

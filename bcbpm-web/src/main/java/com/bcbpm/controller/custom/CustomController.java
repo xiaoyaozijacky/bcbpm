@@ -80,4 +80,11 @@ public class CustomController{
         return rtMap;
     }
 
+    // 删除自定义表单
+    @RequestMapping(value = "/deleteCustomForm/{formId}", method = RequestMethod.DELETE)
+    public void deleteCustomForm(@PathVariable String formId){
+        User user = (User) sessionDeal.getNowUserFront(request);
+        customService.deleteCustomForm(formId, user);
+    }
+
 }

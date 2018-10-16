@@ -90,8 +90,9 @@
 </li>
 		<li></li>
 		<li>
-			<input type='button' id='getBtn' value='REST-GET请求' style='cursor:pointer'>
-			<input type='button' id='postBtn' value='REST-POST请求' style='cursor:pointer'>
+			<input type='button' id='getBtn' value='REST-GET请求' style='width:300px;cursor:pointer'>
+			<input type='button' id='postBtn' value='REST-POST请求' style='width:300px;cursor:pointer'>
+			<input type='button' id='deleteBtn' value='REST-DELETE请求' style='width:300px;cursor:pointer'>
 		</li>
 		<li>执行结果</li>
 		<li>
@@ -118,11 +119,26 @@
 			if(parm!=null&&parm!=""){
 				pa= JSON.parse(parm);
 			}
-			helperCommon.ajaxGet(url, pa, function(data){
+			helperCommon.ajaxGetAndDelete(url, 'GET', pa, function(data){
 				$("#param").val(JSON.stringify(pa));
 			  	$("#result").val(JSON.stringify(data));
 			  	$("#result").css("border","1px solid green");		 
-		 });
+			 });
+		
+		});
+		
+		$("#deleteBtn").click(function(data){
+			var url =$("#urlPre").val()+$("#name").val();
+			var parm=$("#param").val();
+			var pa="";
+			if(parm!=null&&parm!=""){
+				pa= JSON.parse(parm);
+			}
+			helperCommon.ajaxGetAndDelete(url,  'DELETE', pa, function(data){
+				$("#param").val(JSON.stringify(pa));
+			  	$("#result").val(JSON.stringify(data));
+			  	$("#result").css("border","1px solid green");		 
+			 });
 		
 		});
 	});
@@ -222,11 +238,11 @@
 			  }
           });
       },     
-       ajaxGet: function (url, postParams, successCallBack) {
+       ajaxGetAndDelete: function (url,type,postParams, successCallBack) {
        	  var param = JSON.stringify(postParams);
       	  $("#sendlog").val( param);
           $.ajax({
-              type: "get",
+              type: type,
               url: url,
               data: postParams,
               cache: true,

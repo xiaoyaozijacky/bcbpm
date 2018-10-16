@@ -2,6 +2,7 @@ package com.bcbpm.dao.custom;
 
 import java.util.List;
 
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.InsertProvider;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.UpdateProvider;
@@ -62,7 +63,23 @@ public interface ICustomDao{
 
     // 动态更新自定义表单表
     @UpdateProvider(type = CustomDynaSqlProvider.class, method = "updateCustomForm")
-    void updateCustomForm(CustomForm customForm);
+    int updateCustomForm(CustomForm customForm);
+
+    // 新增表单字段
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "updateFormField")
+    int updateFormField(FormField formField);
+
+    // 新增字段选项
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "updateFieldOption")
+    int updateFieldOption(FieldOption fieldOption);
+
+    // 新增选项配置
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "updateOptionConfig")
+    int updateOptionConfig(OptionConfig optionConfig);
+
+    // 新增配置明细
+    @InsertProvider(type = CustomDynaSqlProvider.class, method = "updateConfigOption")
+    int updateConfigOption(ConfigOption configOption);
 
     /**
      * @Title: 根据条件查询自定义表单数据 
@@ -80,4 +97,25 @@ public interface ICustomDao{
 
     @Select(" select count(*)cnt from t_custom_form cform ")
     Integer findCustomFormsCnt(String formName, String description, String formType, String tenantId, String userId);
+
+    // 删除自定义表单表
+    @Delete(" delete from t_custom_form where id =#{id} ")
+    int deleteCustomForm(String id);
+
+    // 删除表单字段
+    @Delete(" delete from t_custom_form_field where formId =#{formId} ")
+    int deleteFormField(String formId);
+
+    // 删除字段选项
+    @Delete(" delete from t_custom_field_option where formFieldId =#{formFieldId} ")
+    int deleteFieldOption(String formFieldId);
+
+    // 删除选项配置
+    @Delete(" delete from t_custom_option_config where fieldOptionId =#{fieldOptionId} ")
+    int deleteOptionConfig(String fieldOptionId);
+
+    // 删除配置明细
+    @Delete(" delete from t_custom_config_option where optionConfigId =#{optionConfigId} ")
+    int deleteConfigOption(String optionConfigId);
+
 }

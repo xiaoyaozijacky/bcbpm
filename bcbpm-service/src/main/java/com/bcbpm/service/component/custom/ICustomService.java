@@ -49,4 +49,13 @@ public interface ICustomService{
     List<CustomForm> findCustomForms(String formName, String description, String formType, String tenantId, String userId, Integer currentPage, Integer pageSize);
 
     Integer findCustomFormsCnt(String formName, String description, String formType, String tenantId, String userId);
+
+    /**
+     * @Title: 删除自定义表单 
+     * @author jacky
+     * @date 2018年10月16日 下午6:49:41
+     * @param formId
+     * @param user
+     */
+    void deleteCustomForm(String formId, User user);
 }
