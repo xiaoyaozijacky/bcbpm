@@ -116,6 +116,7 @@ public class CustomServiceImpl implements ICustomService{
      * @param form
      * @param user
     */
+    @SuppressWarnings("unused")
     private void updateCustomForm(CustomForm form, User user){
         FieldOption fieldOption = null;
         OptionConfig optionConfig = null;

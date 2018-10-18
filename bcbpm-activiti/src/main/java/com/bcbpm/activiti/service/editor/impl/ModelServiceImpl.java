@@ -30,7 +30,6 @@ import org.activiti.editor.language.json.converter.BpmnJsonConverter;
 import org.activiti.editor.language.json.converter.util.CollectionUtils;
 import org.activiti.editor.language.json.converter.util.JsonConverterUtil;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.ibatis.javassist.NotFoundException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -109,9 +108,10 @@ public class ModelServiceImpl implements ModelService{
         Model model = modelRepository.findOne(modelId);
 
         if(model == null){
-            NotFoundException modelNotFound = new NotFoundException("No model found with the given id: " + modelId);
+            //           NotFoundException modelNotFound = new NotFoundException("No model found with the given id: " + modelId);
             //            modelNotFound.setMessageKey(PROCESS_NOT_FOUND_MESSAGE_KEY);
-            //            throw modelNotFound;
+            //                        throw modelNotFound;
+            throw new BusinessException("No model found with the given id: " + modelId);
         }
 
         return model;

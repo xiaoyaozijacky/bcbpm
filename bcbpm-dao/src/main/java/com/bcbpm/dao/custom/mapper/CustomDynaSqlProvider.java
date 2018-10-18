@@ -60,6 +60,7 @@ public class CustomDynaSqlProvider{
                 INSERT_INTO("t_custom_field_option ");
                 VALUES("id", "#{id}");
                 VALUES("defaultSetting", "#{defaultSetting}");
+                VALUES("defaultValue", "#{defaultValue}");
                 VALUES("description", "#{description}");
                 VALUES("required", "#{required}");
                 VALUES("`unique`", "#{unique}");
@@ -147,6 +148,9 @@ public class CustomDynaSqlProvider{
                 UPDATE("t_custom_field_option ");
                 if(fieldOption.getDefaultSetting() != null){
                     SET("defaultSetting = #{defaultSetting}");
+                }
+                if(fieldOption.getDefaultValue() != null){
+                    SET("defaultValue = #{defaultValue}");
                 }
                 if(fieldOption.getDescription() != null){
                     SET("description = #{description}");

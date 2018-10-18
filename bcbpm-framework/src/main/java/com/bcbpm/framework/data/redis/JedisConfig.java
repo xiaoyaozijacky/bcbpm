@@ -36,6 +36,10 @@ public class JedisConfig{
      */
     @Bean
     public JedisCluster getJedisCluster(){
+        //        if(redisProperties.getMode() == 0){
+        //            return null;
+        //        }
+        logger.info("redis 集群启动: ");
         String[] serverArray = redisProperties.getClusterNodes().split(",");//获取redis集群服务器组ip
         Set<HostAndPort> nodes = new HashSet<HostAndPort>();
         for(String ipPort : serverArray){
@@ -67,6 +71,10 @@ public class JedisConfig{
      */
     @Bean
     public JedisPool initPool(){
+        //        if(redisProperties.getMode() == 1){
+        //            return null;
+        //        }
+        logger.info("redis 单机启动: " + redisProperties.getHost() + ":" + redisProperties.getPort());
         JedisPoolConfig config = new JedisPoolConfig();
         //控制一个pool可分配多少个jedis实例，通过pool.getResource()来获取；  
         //如果赋值为-1，则表示不限制；如果pool已经分配了maxActive个jedis实例，则此时pool的状态为exhausted(耗尽)。  

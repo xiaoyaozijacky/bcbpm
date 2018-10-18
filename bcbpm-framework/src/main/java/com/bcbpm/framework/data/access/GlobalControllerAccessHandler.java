@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
+import com.alibaba.fastjson.JSON;
 import com.bcbpm.framework.data.enums.ResultEnum;
 import com.bcbpm.model.IBusinessResult;
 
@@ -52,11 +53,12 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
             IBusinessResult result = (IBusinessResult) body;
             return new BaseResponse(result.getResultCode(), result.getResultMsg());
         }
-
-        //        logger.info("系统正常返回");
+        //对基础数据类型进行转换
+        if(isBaseType(returnType.getMethod().getReturnType())){
+            logger.info("对基础数据类型进行BaseResponse类型转换");
+            return JSON.toJSONString(new BaseResponse(body));
+        }
         return new BaseResponse(body);
-        //        return JSON.toJSON(new BaseResponse(body));
-        //        return JSON.toJSONString(new BaseResponse(body));
     }
 
     //声明要捕获的异常
@@ -73,4 +75,18 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
         }
     }
 
+    /**
+    * 判断object是否为基本类型
+    * @param object
+    * @return
+    */
+    public static boolean isBaseType(Object object){
+        String className = object.toString().replaceFirst("class ", "");
+        if(className.equals("java.lang.String") || className.equals("java.lang.Integer") || className.equals("java.lang.Byte") || className.equals("java.lang.Long")
+                || className.equals("java.lang.Double") || className.equals("java.lang.Float") || className.equals("java.lang.Character") || className.equals("java.lang.Short")
+                || className.equals("java.lang.Boolean")){
+            return true;
+        }
+        return false;
+    }
 }

@@ -18,6 +18,7 @@ public class FieldOption implements Serializable{
     private String id;//主键
     private OptionConfig config;//选项定义
     private String defaultSetting;//字段默认值设置
+    private String defaultValue;//字段默认值
     private String description;//属性描述
     private boolean required;//是否必填 true 1, false 0
     private boolean unique;//是否唯一 true 1, false 0
@@ -99,5 +100,13 @@ public class FieldOption implements Serializable{
 
     public void setCreatedBy(String createdBy){
         this.createdBy = createdBy;
+    }
+
+    public String getDefaultValue(){
+        return defaultValue;
+    }
+
+    public void setDefaultValue(String defaultValue){
+        this.defaultValue = defaultValue;
     }
 }

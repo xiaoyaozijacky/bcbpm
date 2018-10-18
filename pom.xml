@@ -91,6 +91,19 @@
 			<version>6.0.0</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-client -->
+		<dependency>
+		    <groupId>org.apache.rocketmq</groupId>
+		    <artifactId>rocketmq-client</artifactId>
+		    <version>4.3.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.rocketmq/rocketmq-common -->
+		<dependency>
+		    <groupId>org.apache.rocketmq</groupId>
+		    <artifactId>rocketmq-common</artifactId>
+		    <version>4.3.1</version>
+		</dependency>
+		
      </dependencies>
      
 <!--      <build>

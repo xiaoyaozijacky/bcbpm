@@ -14,8 +14,9 @@ import org.springframework.stereotype.Component;
  * @description: redis 配置信息
  */
 @Component
-@ConfigurationProperties(prefix = "spring.redis")
+@ConfigurationProperties(RedisProperty.PREFIX)
 public class RedisProperty{
+    public static final String PREFIX = "spring.redis";
     // 启动模式 0 单机 1集群
     private Integer mode;
     // redis单机
