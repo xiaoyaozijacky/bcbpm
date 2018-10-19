@@ -15,9 +15,7 @@ import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import com.bcbpm.framework.data.redis.RedisClient;
 import com.bcbpm.framework.data.redis.RedisKey;
-import com.bcbpm.framework.session.SessionDeal;
 import com.bcbpm.framework.spring.SpringContextUtil;
-import com.bcbpm.model.user.User;
 import com.bcbpm.util.SerializeUtil;
 import com.bcbpm.util.TimeUtil;
 
@@ -37,7 +35,7 @@ public class AccessRecordInterceptor extends HandlerInterceptorAdapter{
     //    @Autowired
     //    private RedisClient redisClient = null;
 
-    private SessionDeal sessionDeal = (SessionDeal) SpringContextUtil.getBean("sessionDeal");
+    //    private SessionDeal sessionDeal = (SessionDeal) SpringContextUtil.getBean("sessionDeal");
     private RedisClient redisClient = (RedisClient) SpringContextUtil.getBean("redisClient");
 
     /**
@@ -46,7 +44,7 @@ public class AccessRecordInterceptor extends HandlerInterceptorAdapter{
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception{
         logger.info("进入url请求信息记录拦截器");
         long startTime = System.currentTimeMillis();
-        request.setAttribute("startTime", startTime);
+        request.setAttribute("recordStartTime", startTime);
 
         if(handler instanceof HandlerMethod){
             StringBuffer sb = new StringBuffer();
@@ -87,18 +85,18 @@ public class AccessRecordInterceptor extends HandlerInterceptorAdapter{
 
     // after the handler is executed
     public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception{
-        long startTime = (Long) request.getAttribute("startTime");
         long endTime = System.currentTimeMillis();
+        long startTime = (Long) request.getAttribute("recordStartTime");
         long executeTime = endTime - startTime;
         if(handler instanceof HandlerMethod){
-            HandlerMethod h = (HandlerMethod) handler;
+            HandlerMethod hm = (HandlerMethod) handler;
             StringBuilder sb = new StringBuilder();
             sb.append("-----------------------").append(TimeUtil.getDateTime()).append("-------------------------------------\n");
             sb.append("costTime  : ").append(executeTime).append("ms").append("\n");
             sb.append("-------------------------------------------------------------------------------");
             logger.info(sb.toString());
             //进行统计处理
-            dealSta(h.getBean().getClass().getName(), h.getMethod().getName(), startTime, endTime, request);
+            dealSta(hm, startTime, endTime, request);
         }
     }
 
@@ -113,23 +111,25 @@ public class AccessRecordInterceptor extends HandlerInterceptorAdapter{
     * @author jacky
     * @date 2018年9月13日 下午5:37:05
      */
-    private void dealSta(String controllerName, String methodName, long startTime, long endTime, HttpServletRequest request){
-        String requestParams = (String) request.getAttribute("requestParams");
-        String uri = request.getRequestURI();
+    private void dealSta(HandlerMethod hm, long startTime, long endTime, HttpServletRequest request){
+        //        String controllerName = hm.getBean().getClass().getName();
+        //        String methodName = hm.getMethod().getName();
+        //        String requestParams = (String) request.getAttribute("requestParams");
+        //        String uri = request.getRequestURI();
         StatisticsVO svo = new StatisticsVO();
-        svo.setControllerName(controllerName);
-        svo.setUri(uri);
-        svo.setMethodName(methodName);
-        svo.setAccessTime(TimeUtil.getDateTime());
-        svo.setMaxExcuteTime(endTime - startTime);
-        svo.setRequestParams(requestParams);
-        User user = (User) sessionDeal.getNowUserFront(request);
-        if(user != null){
-            svo.setTenantId(user.getTenantId());
-            svo.setUserId(user.getUserId());
-        }else{
-            logger.info("The method " + methodName + "未登录执行");
-        }
+        //        svo.setControllerName(controllerName);
+        //        svo.setUri(uri);
+        //        svo.setMethodName(methodName);
+        //        svo.setAccessTime(TimeUtil.getDateTime());
+        //        svo.setMaxExcuteTime(endTime - startTime);
+        //        svo.setRequestParams(requestParams);
+        //        User user = (User) sessionDeal.getNowUserFront(request);
+        //        if(user != null){
+        //            svo.setTenantId(user.getTenantId());
+        //            svo.setUserId(user.getUserId());
+        //        }else{
+        //            logger.info("The method " + methodName + "未登录执行");
+        //        }
         redisClient.getClient().lpush(RedisKey.SESSION_FUNCTION_STATISTICS_QUEUE, SerializeUtil.serialize(svo));
     }
 }

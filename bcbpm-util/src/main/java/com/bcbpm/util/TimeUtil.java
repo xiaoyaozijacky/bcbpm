@@ -448,19 +448,15 @@ final public class TimeUtil{
     /**
      * 1970.01.01 00.00.00基准时间(单位=秒)
      */
-    static public Date toDate(int time){
-        return new Date((long) (time) * 1000);
+    static public Date toDate(long time){
+        return new Date(time);
     }
 
     /**
      * 1970.01.01 00.00.00基准时间 yyyy-MM-dd HH:mm:ss(单位=秒)
      */
-    static public String toDateString(int time){
-        return getDateTime(new Date((long) (time) * 1000));
-    }
-
     static public String toDateString(long time){
-        return getDateTime(new Date((long) (time)));
+        return getDateTime(new Date(time));
     }
 
     /**
@@ -490,7 +486,7 @@ final public class TimeUtil{
     }
 
     static public Date to2000Date(long time){
-        return new Date((long) (time + Time2000) * 1000);
+        return new Date(time + Time2000);
     }
 
     static public long to2000MM(){
@@ -687,5 +683,7 @@ final public class TimeUtil{
         //    String date = "2008-04-19";
         //    logger.info(TimeUtil.convertWeekByDate("2016-04-07"));	
         //    logger.info(TimeUtil.getPreviousSunday("2016-04-17"));	
+        long endTimeMs = System.currentTimeMillis();
+        System.out.println(TimeUtil.toDate(endTimeMs));
     }
 }

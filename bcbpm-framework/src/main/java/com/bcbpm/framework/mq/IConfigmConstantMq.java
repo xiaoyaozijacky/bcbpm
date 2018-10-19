@@ -13,10 +13,13 @@ package com.bcbpm.framework.mq;
 public interface IConfigmConstantMq{
     // 系统公共主题标识
     public final static String TOPIC_COMMON = "topic_common";
+    // 消息类型tag: 日志消息
+    public final static String TAG_LOG = "tag_log";
     // 消息类型tag: 系统消息
     public final static String TAG_SYSTEM = "tag_system";
     // 消息类型tag: 短信
     public final static String TAG_SMS = "tag_sms";
     // 消息类型tag: 定时任务消息
     public final static String TAG_TIME = "tag_time";
+
 }

@@ -39,6 +39,10 @@ public class SampleController{
         return i;
     }
 
+    @RequestMapping("/testVoid")
+    public void testVoid(String tt){
+    }
+
     @RequestMapping("/testBusiError")
     public Integer testBusiError() throws Exception{
         logger.info("正常访问controller的testBusiError方法");
@@ -46,7 +50,7 @@ public class SampleController{
         try{
             i = 5 / 0;
         }catch(Exception e){
-            throw new BusinessException(ResultEnum.LOGIN_ERROR2.setResultMsg("张三"));
+            throw new BusinessException(ResultEnum.LOGIN_ERROR2);
         }
         return i;
     }

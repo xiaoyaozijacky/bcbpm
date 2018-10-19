@@ -1,22 +1,40 @@
 package com.bcbpm.framework.interceptor;
 
 import java.io.Serializable;
-import java.util.List;
 
 public class StatisticsVO implements Serializable{
     private static final long serialVersionUID = 1L;
-    private String controllerName;//当前controller
-    private String uri;//当前访问地址
-    private String methodName;//当前方法
+    private String url;//访问地址
+    private String ip;//访问IP
+    private String controllerName;//组件名称
+    private String methodName;//方法
+    private String[] paramNames;//参数名称
+    private Object[] paramValues;//参数值
     private long maxExcuteTime;//最大执行时间
     private long clickTimes;//点击次数
-    private List<Object> reqArgs;//发生最大执行时间时入参（新）
-    private String requestParams;//发生最大执行时间时入参（老）
-    private String accessTime;//访问时间
+    //    private List<Object> reqArgs;//发生最大执行时间时入参（新）
+    //    private String requestParams;//发生最大执行时间时入参（老）
+    private String accessTime;//方法执行时间
     private String userId;//访问人员
 
     private String tenantId;//租户标识
     private String id;//主键
+
+    public String getUrl(){
+        return url;
+    }
+
+    public void setUrl(String url){
+        this.url = url;
+    }
+
+    public String getIp(){
+        return ip;
+    }
+
+    public void setIp(String ip){
+        this.ip = ip;
+    }
 
     public String getControllerName(){
         return controllerName;
@@ -26,12 +44,28 @@ public class StatisticsVO implements Serializable{
         this.controllerName = controllerName;
     }
 
-    public String getUri(){
-        return uri;
+    public String getMethodName(){
+        return methodName;
     }
 
-    public void setUri(String uri){
-        this.uri = uri;
+    public void setMethodName(String methodName){
+        this.methodName = methodName;
+    }
+
+    public String[] getParamNames(){
+        return paramNames;
+    }
+
+    public void setParamNames(String[] paramNames){
+        this.paramNames = paramNames;
+    }
+
+    public Object[] getParamValues(){
+        return paramValues;
+    }
+
+    public void setParamValues(Object[] paramValues){
+        this.paramValues = paramValues;
     }
 
     public long getMaxExcuteTime(){
@@ -48,30 +82,6 @@ public class StatisticsVO implements Serializable{
 
     public void setClickTimes(long clickTimes){
         this.clickTimes = clickTimes;
-    }
-
-    public String getMethodName(){
-        return methodName;
-    }
-
-    public void setMethodName(String methodName){
-        this.methodName = methodName;
-    }
-
-    public List<Object> getReqArgs(){
-        return reqArgs;
-    }
-
-    public void setReqArgs(List<Object> reqArgs){
-        this.reqArgs = reqArgs;
-    }
-
-    public String getRequestParams(){
-        return requestParams;
-    }
-
-    public void setRequestParams(String requestParams){
-        this.requestParams = requestParams;
     }
 
     public String getAccessTime(){

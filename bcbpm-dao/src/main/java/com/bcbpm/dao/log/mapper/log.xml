@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bcbpm.dao.log.IRecordUserAccessLogDao">
+
+	 <!-- 日志批量插入 -->
+     <insert id="addBatchAccessLogs" parameterType="java.util.List">
+       		 insert into t_access_log (id, url, ip, controllerMethod,paramNamesView,paramValuesBytes,returnName,returnValueBytes,startTime,endTime,executeTime,userId,tenantId,exceptionBytes,created) 
+             values
+         <foreach collection="list" item="item" index="index" separator=",">
+             (	#{item.id,jdbcType=VARCHAR},
+              	#{item.url,jdbcType=VARCHAR},
+              	#{item.ip,jdbcType=VARCHAR},
+				#{item.controllerMethod,jdbcType=VARCHAR},
+				#{item.paramNamesView,jdbcType=VARCHAR},
+				#{item.paramValuesBytes,jdbcType=BLOB},
+				#{item.returnName,jdbcType=VARCHAR},
+				#{item.returnValueBytes,jdbcType=BLOB},
+				#{item.startTime,jdbcType=TIMESTAMP},
+				#{item.endTime,jdbcType=TIMESTAMP},
+				#{item.executeTime,jdbcType=INTEGER},
+				#{item.userId,jdbcType=VARCHAR},
+				#{item.tenantId,jdbcType=VARCHAR},
+				#{item.exceptionBytes,jdbcType=BLOB},
+	             #{item.created,jdbcType=TIMESTAMP}
+	         )
+         </foreach>
+    </insert>
+	
+	 <select id="findAccessLogs" parameterType="java.util.Map" resultMap="logResultMap" >
+			 select * from t_access_log
+		   <where>
+		        <if test="ip != null"> and ip like concat('%', #{ip}, '%')</if>
+		        <if test="url != null"> and url like concat('%', #{url}, '%')</if>
+		        <if test="userId != null"> and userId=#{userId}</if>
+		        <if test="tenantId != null"> and tenantId=#{tenantId}</if>
+		   </where>
+		   order by created desc 
+		   <if test="currentPage != null">  limit #{currentPage},#{pageSize}  </if>
+      </select>
+      
+	 <resultMap type="com.bcbpm.model.log.AccessLog" id="logResultMap" >
+           <!--  <result  property="url" column="url" jdbcType="VARCHAR"  />
+            <result  property="ip" column="ip" jdbcType="VARCHAR"  /> -->
+            <result  property="paramValuesBytes" column="paramValuesBytes" jdbcType="BLOB"  typeHandler="org.apache.ibatis.type.BlobTypeHandler"/>
+            <result  property="returnValueBytes" column="returnValueBytes" jdbcType="BLOB"  typeHandler="org.apache.ibatis.type.BlobTypeHandler"/>
+            <result  property="exceptionBytes" column="exceptionBytes" jdbcType="BLOB"  typeHandler="org.apache.ibatis.type.BlobTypeHandler"/>
+      </resultMap>
+      
+       
+
+</mapper>

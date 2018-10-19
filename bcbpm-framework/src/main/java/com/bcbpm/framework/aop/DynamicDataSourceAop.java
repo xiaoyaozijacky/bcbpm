@@ -39,21 +39,17 @@ public class DynamicDataSourceAop{
         Object target = pjp.getTarget();
 
         logger.info("target class: " + target.getClass() + "target package: " + target.getClass().getPackage().getName() + "，method.getName(): " + method.getName());
-        if(method.getName().equals("addBatchLogStatistics")){
-            DatabaseContextHolder.setDatabaseType(DatabaseType.main);//设置为日志库
+        if(target.getClass().getPackage().getName().equals("com.bcbpm.service.log.impl")){
+            DatabaseContextHolder.setDatabaseType(DatabaseType.statistic);//设置为统计库
         }else if(target.getClass().getPackage().getName().startsWith("com.bcbpm.activiti")){
             DatabaseContextHolder.setDatabaseType(DatabaseType.main);//设置为工作流库
         }else{
-            DatabaseContextHolder.setDatabaseType(DatabaseType.main);//默认走主库
+            if(chkWritePrefix(method.getName())){
+                DatabaseContextHolder.setDatabaseType(DatabaseType.main);//主库
+            }else{
+                DatabaseContextHolder.setDatabaseType(getReadDb());
+            }
         }
-
-        //        if(target instanceof IBaseService){
-        if(chkWritePrefix(method.getName())){
-            DatabaseContextHolder.setDatabaseType(DatabaseType.main);
-        }else{
-            DatabaseContextHolder.setDatabaseType(getReadDb());
-        }
-        //        }
     }
 
     //判断方法前缀是否需要走主库(增、删、改)

@@ -67,7 +67,7 @@ public class RocketmqConfiguration{
         producer.setNamesrvAddr(properties.getNamesrvAddr());
         producer.setInstanceName(properties.getProducerInstanceName());
         producer.setVipChannelEnabled(false);
-        producer.setRetryTimesWhenSendAsyncFailed(10);
+        producer.setRetryTimesWhenSendAsyncFailed(2);
         /**
          * Producer对象在使用之前必须要调用start初始化，初始化一次即可<br>
          * 注意：切记不可以在每次发送消息时，都调用start方法
@@ -92,7 +92,7 @@ public class RocketmqConfiguration{
         TransactionMQProducer producer = new TransactionMQProducer(properties.getTransactionProducerGroupName());
         producer.setNamesrvAddr(properties.getNamesrvAddr());
         producer.setInstanceName(properties.getProducerTranInstanceName());
-        producer.setRetryTimesWhenSendAsyncFailed(10);
+        producer.setRetryTimesWhenSendAsyncFailed(2);
 
         ExecutorService executorService = new ThreadPoolExecutor(2, 5, 100, TimeUnit.SECONDS, new ArrayBlockingQueue<Runnable>(2000), new ThreadFactory(){
             @Override

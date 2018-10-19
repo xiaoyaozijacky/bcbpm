@@ -67,23 +67,34 @@ public class MybatisConfig{
         return DruidDataSourceFactory.createDataSource(props);
     }
 
-    /**
-    *     @Primary 该注解表示在同一个接口有多个实现类可以注入的时候，默认选择哪一个，而不是让@autowire注解报错
-    *     @Qualifier 根据名称进行注入，通常是在具有相同的多个类型的实例的一个注入（例如有多个DataSource类型的实例）
-    * @param @param mainDbDataSource
-    * @param @param bkDbDataSource
-    * @param @return   
-    * @return DynamicDataSource    
-    * @author jacky
-    * @date 2018年9月16日 下午3:38:16
-    */
+    @Bean
+    public DataSource statisticDbDataSource() throws Exception{
+        Properties props = new Properties();
+        props.put("driverClassName", environment.getProperty("jdbc3.driverClassName"));
+        props.put("url", environment.getProperty("jdbc3.url"));
+        props.put("username", environment.getProperty("jdbc3.username"));
+        props.put("password", environment.getProperty("jdbc3.password"));
+        return DruidDataSourceFactory.createDataSource(props);
+    }
 
+    /**  
+     * @Primary 该注解表示在同一个接口有多个实现类可以注入的时候，默认选择哪一个，而不是让@autowire注解报错
+     * @Qualifier 根据名称进行注入，通常是在具有相同的多个类型的实例的一个注入（例如有多个DataSource类型的实例）
+     * @author jacky
+     * @date 2018年10月19日 下午6:51:54
+     * @param mainDbDataSource
+     * @param bkDbDataSource
+     * @param statisticDbDataSource
+     * @return
+     */
     @Bean
     @Primary
-    public DynamicDataSource dataSource(@Qualifier("mainDbDataSource") DataSource mainDbDataSource, @Qualifier("bkDbDataSource") DataSource bkDbDataSource){
+    public DynamicDataSource dataSource(@Qualifier("mainDbDataSource") DataSource mainDbDataSource, @Qualifier("bkDbDataSource") DataSource bkDbDataSource,
+            @Qualifier("statisticDbDataSource") DataSource statisticDbDataSource){
         Map<Object, Object> targetDataSources = new HashMap<>();
         targetDataSources.put(DatabaseType.main, mainDbDataSource);
         targetDataSources.put(DatabaseType.back, bkDbDataSource);
+        targetDataSources.put(DatabaseType.statistic, statisticDbDataSource);
         DynamicDataSource dataSource = new DynamicDataSource();
         dataSource.setTargetDataSources(targetDataSources);// 该方法是AbstractRoutingDataSource的方法
         dataSource.setDefaultTargetDataSource(mainDbDataSource);// 默认的datasource设置为mainDbDataSource
@@ -103,11 +114,4 @@ public class MybatisConfig{
         return fb.getObject();
     }
 
-    //    /**
-    //       * 配置事务管理器
-    //       */
-    //    @Bean
-    //    public DataSourceTransactionManager transactionManager(DynamicDataSource dataSource) throws Exception{
-    //        return new DataSourceTransactionManager(dataSource);
-    //    }
 }

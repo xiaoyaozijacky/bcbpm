@@ -104,7 +104,7 @@ public class WebConfiguration implements WebMvcConfigurer{
         //        registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns(excludes); 登录拦截器需要过滤这些页面
 
         //调试阶段关闭
-        //                registry.addInterceptor(new AccessRecordInterceptor());
+        //        registry.addInterceptor(new AccessRecordInterceptor()); 使用aop代替
         //        registry.addInterceptor(new SessionInterceptor());
         registry.addInterceptor(new UrlAuthorityInterceptor());
     }

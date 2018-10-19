@@ -12,5 +12,6 @@ package com.bcbpm.framework.data.enums;
  */
 public enum DatabaseType {
     // main为主库 back为从库，一些读操作走从库
-    main , back;
+    // statistic 为统计库，一般存储一些像日志之类为了统计的数据
+    main , back , statistic;
 }

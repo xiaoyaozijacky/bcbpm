@@ -1,9 +1,13 @@
 package com.bcbpm.framework.data.access;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
 import org.springframework.http.MediaType;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -16,6 +20,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
 
 import com.alibaba.fastjson.JSON;
 import com.bcbpm.framework.data.enums.ResultEnum;
+import com.bcbpm.framework.log.RecordLogService;
 import com.bcbpm.model.IBusinessResult;
 
 /**
@@ -31,6 +36,8 @@ import com.bcbpm.model.IBusinessResult;
 @ResponseBody
 public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>{
     Logger logger = LoggerFactory.getLogger(getClass());
+    @Autowired
+    private RecordLogService recordLogService;
 
     @Override
     public boolean supports(MethodParameter returnType, Class<? extends HttpMessageConverter<?>> converterType){
@@ -64,7 +71,9 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
     //声明要捕获的异常
     @ExceptionHandler(Exception.class)
     public Object defultExcepitonHandler(HttpServletRequest request, Exception e){
-        e.printStackTrace();
+        StringWriter sw = new StringWriter();
+        e.printStackTrace(new PrintWriter(sw, true));
+        recordLogService.recordLogException(sw.toString().substring(0, 1000));
         if(e instanceof BusinessException){
             logger.error("业务异常：" + e.getMessage());
             BusinessException businessException = (BusinessException) e;
@@ -73,6 +82,7 @@ public class GlobalControllerAccessHandler implements ResponseBodyAdvice<Object>
             logger.error("系统未知异常：" + e.getMessage());
             return new BaseResponse(ResultEnum.UNKONW_ERROR.getResultCode(), ResultEnum.UNKONW_ERROR.getResultMsg());
         }
+
     }
 
     /**
