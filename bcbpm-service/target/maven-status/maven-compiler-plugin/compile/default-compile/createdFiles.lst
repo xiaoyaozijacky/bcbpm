@@ -1,5 +1,0 @@
-com\bcbpm\service\App.class
-com\bcbpm\service\login\ILoginService.class
-com\bcbpm\service\user\impl\UserServiceImpl.class
-com\bcbpm\service\login\impl\LoginServiceImpl.class
-com\bcbpm\service\user\IUserService.class
